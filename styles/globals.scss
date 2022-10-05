@@ -1,0 +1,97 @@
+@import 'variables';
+// @import 'Nav.module';
+
+html,
+body {
+  background: url('/photo1.jpg') top center no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  // font: small-caps normal 18px/30px Arial, san-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 {
+  color: #fff
+}
+
+// EXTRA
+#__next a {
+  color: #fff;
+
+  &:hover {
+    color: #dedfe0;
+  }
+}
+
+.navigation-bar {
+  width: 100%;
+  /* i'm assuming full width */
+  height: 80px;
+  /* change it to desired width */
+  background-color: transparent;
+  /* change to desired color */
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: top;
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  margin-top: 22px;
+  /* if you want it vertically middle of the navbar. */
+}
+
+.navigation-bar ul {
+  display: inline;
+  padding: 0;
+}
+
+.navigation-bar ul li>a {
+  display: inline;
+  vertical-align: top;
+  margin-right: 20px;
+  height: 80px;
+  /* if you want it to take the full height of the bar */
+  line-height: 80px;
+  /* if you want it vertically middle of the navbar */
+}
+
+// END Extra
+
+
+h1 {
+  background: $color-primary;
+  font-size: 8rem;
+  padding-left: 2rem;
+}
+
+nav ul li {
+  display: inline;
+  padding: 1rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+// @import 'breakpoints';
