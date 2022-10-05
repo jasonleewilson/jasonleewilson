@@ -1,8 +1,8 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
-import Nav from '/components/nav'
-import styles from '../../styles/Contact.module.scss'
+import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
+import Nav from "/components/nav";
+import styles from "../../styles/Contact.module.scss";
 
 export default function Contact() {
   return (
@@ -15,7 +15,13 @@ export default function Contact() {
       <Nav />
       <main>
         <h1>Contact</h1>
+        <p>
+          Jason Lee Wilson
+          <br />
+          Email:
+          <a href="mailto:info@jasonleewilson.com">info@jasonleewilson.com</a>
+        </p>
       </main>
     </div>
-  )
+  );
 }

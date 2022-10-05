@@ -1,8 +1,8 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
-import Nav from '/components/nav';
-import styles from '../../styles/Skills.module.scss'
+import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
+import Nav from "/components/nav";
+import styles from "../../styles/Skills.module.scss";
 
 export default function Skills() {
   return (
@@ -15,7 +15,17 @@ export default function Skills() {
       <Nav />
       <main>
         <h1>Skills</h1>
+        <ul>
+          <li>HTML</li>
+          <li>Javascript</li>
+          <li>SCSS</li>
+          <li>Components</li>
+          <li>UI/UX</li>
+          <li>Design</li>
+          <li>Pagespeed</li>
+          <li>Google Anyltics / GTM</li>
+        </ul>
       </main>
     </div>
-  )
+  );
 }
