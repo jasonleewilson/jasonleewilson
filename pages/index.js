@@ -1,5 +1,7 @@
 import Head from "next/head";
-import TagManager from "react-gtm-module";
+
+// Google TagManager
+
 // import Image from 'next/image'
 import Link from "next/link";
 // import Image from 'next/image'
@@ -7,19 +9,6 @@ import Nav from "/components/nav";
 import Footer from "/components/footer";
 import styles from "../styles/Home.module.scss";
 // import styles from '../styles/Nav.module.scss';
-
-// Google TagManager
-const tagManagerArgs = {
-  id: "GTM-N6T8XD",
-};
-
-const MyApp = ({ Component, pageProps }) => {
-  useEffect(() => {
-    TagManager.initialize(tagManagerArgs);
-  }, []);
-
-  return <Component {...pageProps} />;
-};
 
 export default function Home() {
   return (
