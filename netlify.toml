@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://jasonleewilson.com/mcwhopper/"
+  to = "https://www.jasnleewilson/:splat"
+  status = 301
+  force = true
