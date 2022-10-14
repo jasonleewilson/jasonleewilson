@@ -22,7 +22,7 @@ export default function Contact() {
         <p>
           Jason Lee Wilson
           <br />
-          Email:
+          Email:&nbsp;
           <a href="mailto:info@jasonleewilson.com">info@jasonleewilson.com</a>
         </p>
       </main>
