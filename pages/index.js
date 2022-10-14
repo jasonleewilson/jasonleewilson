@@ -25,7 +25,6 @@ export default function Home() {
       </Head>
       {/* <Image src="/logo.svg" alt="Logo" width={16} height={16} /> */}
       <Nav />
-      {/* <main className={styles.main}> */}
       <main className="container">
         <h1 className={styles.title}>jasonleewilson.com</h1>
         <p>
