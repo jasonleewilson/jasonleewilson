@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import Nav from "/components/nav";
+import Footer from "/components/footer";
 import styles from "../../styles/Contact.module.scss";
 
 export default function Contact() {
@@ -16,7 +17,7 @@ export default function Contact() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav />
-      <main>
+      <main className="container">
         <h1>Contact</h1>
         <p>
           Jason Lee Wilson
@@ -25,6 +26,7 @@ export default function Contact() {
           <a href="mailto:info@jasonleewilson.com">info@jasonleewilson.com</a>
         </p>
       </main>
+      <Footer />
     </div>
   );
 }

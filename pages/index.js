@@ -12,7 +12,7 @@ import styles from "../styles/Home.module.scss";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>
           jasonleewilson.com &#8211; Building the web pixel by pixel
@@ -25,8 +25,9 @@ export default function Home() {
       </Head>
       {/* <Image src="/logo.svg" alt="Logo" width={16} height={16} /> */}
       <Nav />
-      <main className={styles.main}>
-        <h1 className={styles.title}>Welcome to jasonleewilson.com</h1>
+      {/* <main className={styles.main}> */}
+      <main className="container">
+        <h1 className={styles.title}>jasonleewilson.com</h1>
         <p>
           Jason Lee Wilson is a Front-End Developer who can not only design and
           develop technical solutions using the most up to-date frameworks and

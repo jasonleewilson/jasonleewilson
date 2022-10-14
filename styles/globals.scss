@@ -13,13 +13,28 @@ body {
 }
 
 a {
-  color: inherit;
+  color: $color-primary;
   text-decoration: none;
 }
 
-h1 {
-  color: #fff
+p {
+  background: rgba(255, 255, 255, 0.5);
+  color: #000;
+  padding: 2rem;
 }
+
+h1 {
+  // color: $color-primary;
+  background: $color-secondary;
+  font-size: 4vw;
+  // padding-left: 2rem;
+}
+
+.container {
+  height: 80vh
+}
+
+;
 
 #__next {
   background: url('/photo1.jpg') top center no-repeat;
@@ -34,10 +49,10 @@ h1 {
 
 // EXTRA
 #__next a {
-  color: #fff;
+  color: $color-secondary;
 
   &:hover {
-    color: #dedfe0;
+    color: $color-primary;
   }
 }
 
@@ -56,7 +71,8 @@ h1 {
   width: 50px;
   height: 50px;
   // margin-left: 20px;
-  margin-top: 22px;
+  margin-top: 15px;
+  margin-left: 15px;
   /* if you want it vertically middle of the navbar. */
 }
 
@@ -78,19 +94,18 @@ h1 {
 // END Extra
 
 ul {
-  padding: 1rem 0 0;
+  padding: 0.3rem 0 0;
   margin: 0;
-}
-
-h1 {
-  background: $color-primary;
-  font-size: 4rem;
-  // padding-left: 2rem;
 }
 
 nav ul li {
   display: inline;
   padding: 1rem 0.6rem 1rem;
+}
+
+nav ul li:first-child,
+nav ul li:last-child {
+  padding-left: 0;
 }
 
 * {

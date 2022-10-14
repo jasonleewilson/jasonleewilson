@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import Nav from "/components/nav";
+import Footer from "/components/footer";
 import styles from "../../styles/About.module.scss";
 
 export default function About() {
@@ -16,9 +17,9 @@ export default function About() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav />
-      <main>
+      <main className="container">
         <h1>About</h1>
-        <h2>Jason Lee Wilson</h2>
+        {/* <h2>Jason Lee Wilson</h2> */}
         <p>
           Hello, I am Jason Lee Wilson, a Front-End Developer, and Web Designer
           in the industry for over 18 years. Orignally a native from Texas, and
@@ -38,6 +39,7 @@ export default function About() {
           internet-based clients worldwide. By Jason Lee Wilson
         </p>
       </main>
+      <Footer />
     </div>
   );
 }
