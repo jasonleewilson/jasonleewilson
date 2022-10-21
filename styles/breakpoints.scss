@@ -3,6 +3,10 @@
     body {
         background: rgb(249, 127, 127);
         height: 80vh;
+
+        .grid-home > div {
+            grid-column: 7 / span 6;
+          }
     }
 }
 

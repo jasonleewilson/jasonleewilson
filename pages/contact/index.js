@@ -18,13 +18,20 @@ export default function Contact() {
       </Head>
       <Nav />
       <main className="container">
-        <h1>Contact</h1>
-        <p>
-          Jason Lee Wilson
-          <br />
-          Email:&nbsp;
-          <a href="mailto:info@jasonleewilson.com">info@jasonleewilson.com</a>
-        </p>
+        <div className="grid-home">
+            <div>
+            
+            </div>
+            <div>
+              <h1>Contact</h1>
+              <p>
+                Jason Lee Wilson
+                <br />
+                Email:&nbsp;
+                <a href="mailto:info@jasonleewilson.com">info@jasonleewilson.com</a>
+              </p>
+            </div>
+          </div>
       </main>
       <Footer />
     </div>

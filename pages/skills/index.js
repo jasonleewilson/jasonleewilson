@@ -18,18 +18,25 @@ export default function Skills() {
       </Head>
       <Nav />
       <main className="container">
-        <h1>Skills</h1>
-        <p>
-          HTML
-          <br /> Javascript
-          <br /> SCSS
-          <br /> Components
-          <br /> UI/UX
-          <br /> Design
-          <br /> Pagespeed
-          <br /> Google Anyltics / GTM
-          <br />
-        </p>
+        <div className="grid-home">
+            <div>
+            
+            </div>
+            <div>
+              <h1>Skills</h1>
+              <p>
+                HTML
+                <br /> Javascript
+                <br /> SCSS
+                <br /> Components
+                <br /> UI/UX
+                <br /> Design
+                <br /> Pagespeed
+                <br /> Google Anyltics / GTM
+                <br />
+              </p>
+            </div>
+          </div>
       </main>
       <Footer />
     </div>

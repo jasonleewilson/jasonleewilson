@@ -26,15 +26,24 @@ export default function Home() {
       {/* <Image src="/logo.svg" alt="Logo" width={16} height={16} /> */}
       <Nav />
       <main className="container">
-        <h1 className={styles.title}>jasonleewilson.com</h1>
-        <p>
-          Jason Lee Wilson is a Front-End Developer who can not only design and
-          develop technical solutions using the most up to-date frameworks and
-          languages, but also can lead additional development resources based on
-          project needs. I am an innovator who is up-to-date on the latest
-          technology and can push it in new directions. “The word’s “CAN’T” or
-          “TRY” are NOT in my vocabulary.” by Jason Lee Wilson
-        </p>
+        <div className="grid-home">
+          <div>
+          
+          </div>
+
+          <div>
+            <h1 className={styles.title}>jasonleewilson.com</h1>
+            <p>
+              Jason Lee Wilson is a Front-End Developer who can not only design and
+              develop technical solutions using the most up to-date frameworks and
+              languages, but also can lead additional development resources based on
+              project needs. I am an innovator who is up-to-date on the latest
+              technology and can push it in new directions. “The word’s “CAN’T” or
+              “TRY” are NOT in my vocabulary.” by Jason Lee Wilson
+            </p>
+          </div>
+
+        </div>
       </main>
 
       <Footer />

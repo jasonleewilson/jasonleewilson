@@ -1,6 +1,7 @@
 // Google TagManager
 import React, { useEffect, useState } from "react";
 import TagManager from "react-gtm-module";
+import Footer from "/components/footer";
 
 // Normalize.css
 import "../node_modules/normalize.css/normalize.css";
@@ -16,7 +17,7 @@ function MyApp({ Component, pageProps }) {
     TagManager.initialize(tagManagerArgs);
   }, []);
 
-  return <Component {...pageProps} />;
+  return <Component {...pageProps} />;<Footer />;
 }
 
 export default MyApp;
