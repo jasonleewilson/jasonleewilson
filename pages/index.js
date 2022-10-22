@@ -1,18 +1,16 @@
 import Head from "next/head";
-
-// Google TagManager
-
 // import Image from 'next/image'
 import Link from "next/link";
 // import Image from 'next/image'
-import Nav from "/components/nav";
-import Footer from "/components/footer";
+// import Navbar from "/components/navbar";
+// import Footer from "/components/footer";
 import styles from "../styles/Home.module.scss";
 // import styles from '../styles/Nav.module.scss';
 
 export default function Home() {
   return (
     <div>
+      
       <Head>
         <title>
           jasonleewilson.com &#8211; Building the web pixel by pixel
@@ -23,8 +21,9 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {/* <Image src="/logo.svg" alt="Logo" width={16} height={16} /> */}
-      <Nav />
+
+      
+
       <main className="container">
         <div className="grid-home">
           <div>
@@ -45,8 +44,6 @@ export default function Home() {
 
         </div>
       </main>
-
-      <Footer />
     </div>
   );
 }

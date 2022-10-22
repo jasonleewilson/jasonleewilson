@@ -1,9 +1,9 @@
 import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
-import Nav from "/components/nav";
-import Footer from "/components/footer";
-import styles from "../../styles/Contact.module.scss";
+// import Image from "next/image";
+// import Link from "next/link";
+// import Navbar from "/components/navbar";
+// import Footer from "/components/footer";
+import styles from "../styles/Contact.module.scss";
 
 export default function Contact() {
   return (
@@ -16,7 +16,6 @@ export default function Contact() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Nav />
       <main className="container">
         <div className="grid-home">
             <div>
@@ -33,7 +32,6 @@ export default function Contact() {
             </div>
           </div>
       </main>
-      <Footer />
     </div>
   );
 }

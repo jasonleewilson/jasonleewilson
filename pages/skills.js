@@ -1,9 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import Nav from "/components/nav";
+import Navbar from "/components/navbar";
 import Footer from "/components/footer";
-import styles from "../../styles/Skills.module.scss";
+import styles from "../styles/Skills.module.scss";
 
 export default function Skills() {
   return (
@@ -16,7 +16,6 @@ export default function Skills() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Nav />
       <main className="container">
         <div className="grid-home">
             <div>
@@ -38,7 +37,6 @@ export default function Skills() {
             </div>
           </div>
       </main>
-      <Footer />
     </div>
   );
 }
