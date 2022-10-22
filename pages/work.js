@@ -1,5 +1,34 @@
-const Work = () => {
-    return <div>This is the work page</div>
-};
+import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
+import Navbar from "/components/navbar";
+import Footer from "/components/footer";
+import styles from "../styles/Skills.module.scss";
 
-export default Work;
+export default function Skills() {
+  return (
+    <div className={styles.container}>
+      <Head>
+        <title>Skills-jasonleewilson.com</title>
+        <meta
+          name="description"
+          content="I offer a complete solution ranging from website creation, design and maintenance for internet-based clients worldwide. By Jason Wilson. Founder. Jason Lee Wilson"
+        />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <main className="container">
+        <div className="grid-home">
+            <div>
+            
+            </div>
+            <div>
+              <h1>Work</h1>
+              <p>
+                Coming soon...
+              </p>
+            </div>
+          </div>
+      </main>
+    </div>
+  );
+}
