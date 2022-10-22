@@ -27,10 +27,6 @@ export default function Home() {
       <main className="container">
         <div className="grid-home">
           <div>
-          
-          </div>
-
-          <div>
             <h1 className={styles.title}>jasonleewilson.com</h1>
             <p>
               Jason Lee Wilson is a Front-End Developer who can not only design and
