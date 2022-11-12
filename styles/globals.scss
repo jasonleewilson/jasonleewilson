@@ -1,55 +1,80 @@
 // @import url(https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css);
+
+
+
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 @import 'variables';
 @import 'breakpoints';
 
+$body-bg: #f3f3f0;
 html,
 body {
   color: #fff;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  // font: small-caps normal 18px/30px Arial, san-serif;
+  // font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  //   Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font: normal 18px/30px Arial, san-serif;
 }
 
 a {
-  color: $color-primary;
+  color: white;
   text-decoration: none;
+
+  &:hover {
+    color: white;
+  }
 }
 
 p {
   background: rgba(255, 255, 255, 0.5);
   color: #000;
   padding: 0.6rem;
+  font-size: 2vh;;
 }
 
 h1 {
   // color: $color-primary;
   background: $color-secondary;
-  font-size: 4vw;
+  font-size: rem;
   // padding-left: 2rem;
+}
+
+.btn {
+  background: $color-primary;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: $color-primary;
+  background: #e5e3e3;
+}
+
+::selection {
+  color: $color-primary;
+  background: #e5e3e3;
 }
 
 // .container {
 //   height: 80vh;
 // }
 
-.grid-home {
-  display: grid;
-  grid-template-columns: repeat(12,1fr);
+// .grid-home {
+//   display: grid;
+//   grid-template-columns: repeat(12,1fr);
 
-  // div:first-child {
-  //   grid-column-start: 1;
-  //   grid-column-end: 3;
-  // }
-}
+//   // div:first-child {
+//   //   grid-column-start: 1;
+//   //   grid-column-end: 3;
+//   // }
+// }
 
-.grid-home > div {
-  grid-column: 2/span 10;
-}
+// .grid-home > div {
+//   grid-column: 2/span 10;
+// }
 
-#__next {
-  background: url('/photo1.jpg') top left no-repeat;
+// Background Image
+.bg-image {
+  background: url('/photo1.jpg') top right no-repeat;
   background-size: contain;
   height: 100vh;
   padding: 0;
@@ -129,9 +154,9 @@ nav ul li:last-child {
     color-scheme: dark;
   }
 
-  body {
-    color: white;
-    background: url('/bg-main.jpg') repeat-x;
-  }
+  // body {
+  //   color: white;
+  //   background: url('/bg-main.jpg') repeat-x;
+  // }
 }
 

@@ -12,10 +12,10 @@ const Navbar = () => {
         <a className='logo'><Image src="/logo.svg" alt="Logo" width={32} height={32} /></a>
       </Link>
           <ul>
-              <li><Link href="/">Home</Link></li>
+              {/* <li><Link href="/">Home</Link></li> */}
               <li><Link href="/about/">About</Link></li>
               <li><Link href="/skills/">Skills</Link></li>
-              <li><Link href="/work">Work</Link></li>
+              {/* <li><Link href="/work">Work</Link></li> */}
               <li><Link href="/contact/">Contact</Link></li>
           </ul>
       </nav>

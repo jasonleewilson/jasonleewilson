@@ -9,35 +9,46 @@ import styles from "../styles/Home.module.scss";
 
 export default function Home() {
   return (
-    <div>
-      
+    <div className='container-fluid'>
       <Head>
         <title>
           jasonleewilson.com &#8211; Building the web pixel by pixel
         </title>
         <meta
-          name="description"
-          content="I offer a complete solution ranging from website creation, design and maintenance for internet-based clients worldwide. By Jason Wilson. Founder. Jason Lee Wilson"
+          name='description'
+          content='I offer a complete solution ranging from website creation, design and maintenance for internet-based clients worldwide. By Jason Wilson. Founder. Jason Lee Wilson'
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      
-
-      <main className="container">
-        <div className="grid-home">
-          <div>
-            <h1 className={styles.title}>jasonleewilson.com</h1>
-            <p>
-              Jason Lee Wilson is a Front-End Developer who can not only design and
-              develop technical solutions using the most up to-date frameworks and
-              languages, but also can lead additional development resources based on
-              project needs. I am an innovator who is up-to-date on the latest
-              technology and can push it in new directions. “The word’s “CAN’T” or
-              “TRY” are NOT in my vocabulary.” by Jason Lee Wilson
-            </p>
+      <main>
+        <div className='row vh-100 bg-image'>
+          <div className='col-sm-12 col-md-6 align-self-center'>
+            <h1 className={styles.title}>
+              “The word&apos;s “<s>CAN&apos;T</s>” or “<s>TRY</s>” are NOT in my
+              vocabulary.”
+            </h1>
+            <p className='text-right'>by: Jason Lee Wilson</p>
           </div>
-
+          <div className='col-sm-12 col-md-6 align-self-center'>
+            <p>
+              Jason Lee Wilson is a Front-End Developer who can not only design
+              and develop technical solutions using the most up to-date
+              frameworks and languages, but also can lead additional development
+              resources based on project needs. I am an innovator who is
+              up-to-date on the latest technology and can push it in new
+              directions. Building the web pixel by pixel.
+            </p>
+            <button
+              type="button"
+              href='/contact'
+              className='btn btn-danger float-right'
+              aria-label='Get in touch'
+              alt='Get in touch'
+            >
+              <Link href="/contact/">Get in touch</Link>
+            </button>
+          </div>
         </div>
       </main>
     </div>

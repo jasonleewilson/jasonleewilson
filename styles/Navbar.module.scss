@@ -10,10 +10,11 @@
 
     ul {
         display: inline-flex;
+        margin-left: 0.2rem;
     }
 
     a {
-        color: white;
+        color: $color-secondary;
 
         &:hover {
                  color: $color-primary;

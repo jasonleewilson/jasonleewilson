@@ -1,35 +1,35 @@
-/* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {
-    body {
-        background: rgb(249, 127, 127);
-        height: 80vh;
+// /* Small devices (landscape phones, 576px and up)*/
+// @media (min-width: 576px) {
+//     body {
+//         background: rgb(249, 127, 127);
+//         height: 80vh;
 
-        .grid-home > div {
-            grid-column: 6 / span 6;
-          }
-    }
-}
+//         .grid-home > div {
+//             grid-column: 6 / span 6;
+//           }
+//     }
+// }
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-    body {
-        background: rgb(105, 146, 67);
-        height: 80vh;
-    }
-}
+// /* Medium devices (tablets, 768px and up) */
+// @media (min-width: 768px) {
+//     body {
+//         background: rgb(105, 146, 67);
+//         height: 80vh;
+//     }
+// }
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-    body {
-        background: rgb(62, 60, 133);
-        height: 80vh;
-    }
-}
+// /* Large devices (desktops, 992px and up) */
+// @media (min-width: 992px) {
+//     body {
+//         background: rgb(62, 60, 133);
+//         height: 80vh;
+//     }
+// }
 
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-    body {
-        background: rgb(144, 70, 118);
-        height: 80vh;
-    }
-}
+// /* Extra large devices (large desktops, 1200px and up) */
+// @media (min-width: 1200px) {
+//     body {
+//         background: rgb(144, 70, 118);
+//         height: 80vh;
+//     }
+// }
