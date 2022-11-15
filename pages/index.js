@@ -9,7 +9,7 @@ import styles from "../styles/Home.module.scss";
 
 export default function Home() {
   return (
-    <div className='container-fluid'>
+    <div className='container-fluid bg-image'>
       <Head>
         <title>
           jasonleewilson.com &#8211; Building the web pixel by pixel
@@ -21,8 +21,8 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main>
-        <div className='row vh-100 bg-image'>
+      <main className="container">
+        <div className='row vh-100'>
           <div className='col-sm-12 col-md-6 align-self-center'>
             <h1 className={styles.title}>
               “The word&apos;s “<s>CAN&apos;T</s>” or “<s>TRY</s>” are NOT in my

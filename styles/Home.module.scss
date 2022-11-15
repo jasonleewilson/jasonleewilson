@@ -113,6 +113,11 @@
     width: 100%;
     flex-direction: column;
   }
+
+  .title {margin: 14rem 0 0 0;
+    line-height: 1.15;
+    font-size: 11vw;
+    }
 }
 
 @media (prefers-color-scheme: dark) {
