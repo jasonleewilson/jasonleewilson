@@ -19,6 +19,7 @@ export default function Home() {
           content='I offer a complete solution ranging from website creation, design and maintenance for internet-based clients worldwide. By Jason Wilson. Founder. Jason Lee Wilson'
         />
         <link rel='icon' href='/favicon.ico' />
+        <meta name="google-site-verification" content="Av07LDlnBz4lQ-wTmL6oB2AXeux75nX8UmLCgw3l76Y" />
       </Head>
 
       <main className="container">
