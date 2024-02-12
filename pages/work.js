@@ -24,14 +24,14 @@ export default function Skills() {
             <div>
               <h1>Work</h1>
               <ul>
-                <li><a href="http://lunarnewyear.com" target="_blank">LunarNewYear.com</a></li>
-                <li><a href="https://pagodaasiangrill.com/" target="_blank">PagodaAsianGrill.com</a></li>
-                <li><a href="https://www.pfchangs.com/" target="_blank">PFChangs.com</a></li>
-                <li><a href="https://eptexas.com/" target="_blank">EPTexas.com</a></li>
-                <li><a href="https://bitcoin-current-price.com/" target="_blank">Bitcoin-Current-Price.com</a></li>
-                <li><a href="https://www.current-price.com/" target="_blank">Current-Price.com</a></li>
-                <li><a href="https://luckycatfund.com/" target="_blank">LuckyCatFund.com</a></li>
-                <li><a href="https://jasonleewilson.github.io/" target="_blank">jasonleewilson.github.io</a></li>
+                <li><link href="http://lunarnewyear.com" target="_blank">LunarNewYear.com</link></li>
+                <li><link href="https://pagodaasiangrill.com/" target="_blank">PagodaAsianGrill.com</link></li>
+                <li><link href="https://www.pfchangs.com/" target="_blank">PFChangs.com</link></li>
+                <li><link href="https://eptexas.com/" target="_blank">EPTexas.com</link></li>
+                <li><link href="https://bitcoin-current-price.com/" target="_blank">Bitcoin-Current-Price.com</link></li>
+                <li><link href="https://www.current-price.com/" target="_blank">Current-Price.com</link></li>
+                <li><link href="https://luckycatfund.com/" target="_blank">LuckyCatFund.com</link></li>
+                <li><link href="https://jasonleewilson.github.io/" target="_blank">jasonleewilson.github.io</link></li>
 
                 
 
