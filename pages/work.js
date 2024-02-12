@@ -3,9 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import Navbar from "/components/navbar";
 import Footer from "/components/footer";
-import styles from "../styles/Skills.module.scss";
+import styles from "../styles/Work.module.scss";
 
-export default function Skills() {
+export default function Work() {
   return (
     <div className={styles.container}>
       <Head>
@@ -24,16 +24,14 @@ export default function Skills() {
             <div>
               <h1>Work</h1>
               <ul>
-                <li><link href="http://lunarnewyear.com" target="_blank">LunarNewYear.com</link></li>
-                <li><link href="https://pagodaasiangrill.com/" target="_blank">PagodaAsianGrill.com</link></li>
-                <li><link href="https://www.pfchangs.com/" target="_blank">PFChangs.com</link></li>
-                <li><link href="https://eptexas.com/" target="_blank">EPTexas.com</link></li>
-                <li><link href="https://bitcoin-current-price.com/" target="_blank">Bitcoin-Current-Price.com</link></li>
-                <li><link href="https://www.current-price.com/" target="_blank">Current-Price.com</link></li>
-                <li><link href="https://luckycatfund.com/" target="_blank">LuckyCatFund.com</link></li>
-                <li><link href="https://jasonleewilson.github.io/" target="_blank">jasonleewilson.github.io</link></li>
-
-                
+                <li><Link href="http://lunarnewyear.com" target="_blank">LunarNewYear.com</Link></li>
+                <li><Link href="https://pagodaasiangrill.com/" target="_blank">PagodaAsianGrill.com</Link></li>
+                <li><Link href="https://www.pfchangs.com/" target="_blank">PFChangs.com</Link></li>
+                <li><Link href="https://eptexas.com/" target="_blank">EPTexas.com</Link></li>
+                <li><Link href="https://bitcoin-current-price.com/" target="_blank">Bitcoin-Current-Price.com</Link></li>
+                <li><Link href="https://www.current-price.com/" target="_blank">Current-Price.com</Link></li>
+                <li><Link href="https://luckycatfund.com/" target="_blank">LuckyCatFund.com</Link></li>
+                <li><Link href="https://jasonleewilson.github.io/" target="_blank">jasonleewilson.github.io</Link></li>
 
               </ul>
             </div>
