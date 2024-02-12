@@ -18,11 +18,11 @@ body {
 }
 
 a {
-  color: white;
+  color: $color-secondary;
   text-decoration: none;
 
   &:hover {
-    color: white;
+    color: $color-primary;
   }
 }
 
