@@ -47,7 +47,7 @@ export default function Home() {
               aria-label='Get in touch'
               alt='Get in touch'
             >
-              <Link href="/contact/">Get in touch</Link>
+              <Link href="/work/">Goto Work</Link>
             </button>
           </div>
         </div>
