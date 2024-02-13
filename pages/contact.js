@@ -26,11 +26,8 @@ export default function Contact() {
               <p>
                 Jason Lee Wilson
                 <br />
-                <br />
                 Email:&nbsp;
                 <a href="mailto:info@jasonleewilson.com">info@jasonleewilson.com</a>
-                <br />
-                <br />
               </p>
               <div>
               <form name="contact" method="post">
