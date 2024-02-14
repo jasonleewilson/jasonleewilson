@@ -6,6 +6,7 @@ import Link from "next/link";
 // import Footer from "/components/footer";
 import styles from "../styles/Home.module.scss";
 // import styles from '../styles/Nav.module.scss';
+import { SiTailwindcss, SiHtml5, SiSass, SiCss3, SiJavascript, SiReact } from "react-icons/si";
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
               vocabulary.”
             </h1>
             <p className='text-right'>by: Jason Lee Wilson</p>
+            <p className='text-right icons'><SiHtml5 className="html5" /> <SiCss3 className="css3"/> <SiSass className="sass" />{/*<SiTailwindcss className="tailwind" />*/} <SiJavascript className="js"/><SiReact className="react" /></p>
           </div>
           <div className='col-sm-12 col-md-6 align-self-center'>
             <p>
@@ -40,15 +42,21 @@ export default function Home() {
               up-to-date on the latest technology and can push it in new
               directions. Building the web pixel by pixel.
             </p>
-            <button
-              type="button"
-              href='/contact'
-              className='btn btn-danger float-right'
-              aria-label='Get in touch'
-              alt='Get in touch'
-            >
-              <Link href="/work/">Goto Work</Link>
-            </button>
+            
+              {/* <Link to="/work/">Goto Work</Link> */}
+              
+              <Link href="/work/">
+              <button
+                type="button"
+                href='/work/'
+                className='btn btn-danger float-right'
+                aria-label='Goto Work'
+                data-href="/work/"
+              >
+                Goto Work
+              </button>
+              </Link>
+            
           </div>
         </div>
       </main>
