@@ -31,6 +31,7 @@ export default function Work() {
                 <li><a href="https://bitcoin-current-price.com/" target="_blank" rel="noopener noreferrer">Bitcoin-Current-Price.com</a></li>
                 <li><a href="https://www.current-price.com/" target="_blank" rel="noopener noreferrer">Current-Price.com</a></li>
                 <li><a href="https://luckycatfund.com/" target="_blank" rel="noopener noreferrer">LuckyCatFund.com</a></li>
+                <li><a href="https://www.helloworldpro.com" target="_blank" rel="noopener noreferrer">helloworldpro.com</a></li>
                 <li><a href="https://jasonleewilson.github.io/" target="_blank" rel="noopener noreferrer">jasonleewilson.github.io</a></li>
 
               </ul>
