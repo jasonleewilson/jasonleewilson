@@ -51,15 +51,15 @@ export default function Home() {
               {/* <Link to="/work/">Goto Work</Link> */}
               
               <Link href="/work/">
-              <button
-                type="button"
-                href='/work/'
-                className='btn btn-danger float-right'
-                aria-label='Goto Work'
-                data-href="/work/"
-              >
-                Goto Work
-              </button>
+                <button
+                  type="button"
+                  // href='/work/'
+                  className='btn btn-danger float-right'
+                  aria-label='Goto Work'
+                  // data-href="/work/"
+                >
+                  Goto Work
+                </button>
               </Link>
             
           </div>
