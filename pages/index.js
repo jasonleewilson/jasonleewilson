@@ -21,6 +21,11 @@ export default function Home() {
         />
         <link rel='icon' href='/favicon.ico' />
         <meta name="google-site-verification" content="Av07LDlnBz4lQ-wTmL6oB2AXeux75nX8UmLCgw3l76Y" />
+        <link
+          rel="preload"
+          href="/photo1.jpg"
+          as="image"
+        />
       </Head>
 
       <main className="container">
