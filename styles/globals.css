@@ -8,11 +8,11 @@ body {
 }
 
 a {
-  color: white;
+  color: #706666;
   text-decoration: none;
 }
 a:hover {
-  color: white;
+  color: #CD2229;
 }
 
 p {
@@ -24,11 +24,41 @@ p {
 
 h1 {
   background: #706666;
-  font-size: rem;
+  font-size: 2.5rem;
 }
 
-.btn {
+.icons svg {
+  font-size: 1.5rem;
+  margin: 0 0.2rem;
+}
+
+.icons .html5 {
+  color: rgb(228, 77, 38);
+}
+
+.icons .css3 {
+  color: rgb(0, 109, 186);
+}
+
+.icons .sass {
+  color: rgb(191, 64, 128);
+}
+
+.icons .tailwind {
+  color: rgb(56, 189, 248);
+}
+
+.icons .js {
+  color: rgb(233, 202, 50);
+}
+
+.icons .react {
+  color: rgb(20, 158, 202);
+}
+
+.btn, .btn-danger a {
   background: #CD2229;
+  color: #fff;
 }
 
 ::-moz-selection { /* Code for Firefox */

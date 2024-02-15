@@ -1,3 +1,6 @@
+.container input, .container textarea {
+  margin: 1rem 0;
+}
 .container h1 {
   color: inherit;
 }
