@@ -54,7 +54,7 @@ export default function Home() {
             <p>
               Jason Lee Wilson is a Front-End Developer who can not only design
               and develop technical solutions using the most up to-date
-              frameworks and languages, but also can lead additional development
+              frameworks and languages but also can lead additional development
               resources based on project needs. I am an innovator who is
               up-to-date on the latest technology and can push it in new
               directions. Building the web pixel by pixel.
