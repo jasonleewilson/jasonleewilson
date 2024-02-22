@@ -36,7 +36,7 @@ export default function About() {
               development applications. I&apos;m someone who is passionate about
               designing and expressing my creative talents in an online
               environment. I offer a versatile range of graphic design, web
-              design and web development. As a Web / Print designer, within the
+              design, and web development. As a Web / Print designer, within the
               intensely pressurized and demanding environment of the Online /
               Offline world. I offer a complete solution ranging from website
               creation, design and maintenance for internet-based clients
