@@ -26,20 +26,21 @@ export default function About() {
               Hello, I am Jason Lee Wilson, a Front-End Developer, and Web
               Designer in the industry for over 20 years. Orignally a native
               from Texas, and currently a resident outside North Dallas, Texas.
-              I hold a Bachelor's degree in Game Design from Collins College. I
-              have worked with a number of clients, including IBM, P.F. Chang's,
-              Microchip, Crocs, Primavera, Jetset Magazine, Coyotes NHL, Nicole
-              Richie, Kelloggs, Blue Global Media, Checker Auto Parts,
-              Microsoft, Hitachi, and Swift Transportation. Currently I am
-              responsible for designing graphics for websites and landing pages,
-              coding websites and assisting in web development applications. I'm
-              someone who is passionate about designing and expressing my
-              creative talents in an online environment. I offer a versatile
-              range of graphic design, web design and web development. As a Web
-              / Print designer, within the intensely pressurized and demanding
-              environment of the Online / Offline world. I offer a complete
-              solution ranging from website creation, design and maintenance for
-              internet-based clients worldwide. By Jason Lee Wilson
+              I hold a Bachelor&apos;s degree in Game Design from Collins
+              College. I have worked with a number of clients, including IBM,
+              P.F. Chang&apos;s, Microchip, Crocs, Primavera, Jetset Magazine,
+              Coyotes NHL, Nicole Richie, Kellogg&apos;s, Blue Global Media,
+              Checker Auto Parts, Microsoft, Hitachi, and Swift Transportation.
+              Currently, I am responsible for designing graphics for websites
+              and landing pages, coding websites and assisting in web
+              development applications. I&apos;m someone who is passionate about
+              designing and expressing my creative talents in an online
+              environment. I offer a versatile range of graphic design, web
+              design and web development. As a Web / Print designer, within the
+              intensely pressurized and demanding environment of the Online /
+              Offline world. I offer a complete solution ranging from website
+              creation, design and maintenance for internet-based clients
+              worldwide. By Jason Lee Wilson
             </p>
           </div>
         </div>
