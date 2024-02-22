@@ -11,35 +11,34 @@ export default function About() {
       <Head>
         <title>About-jasonleewilson.com</title>
         <meta
-          name="description"
-          content="I offer a complete solution ranging from website creation, design and maintenance for internet-based clients worldwide. By Jason Wilson. Founder. Jason Lee Wilson"
+          name='description'
+          content='I offer a complete solution ranging from website creation, design and maintenance for internet-based clients worldwide. By Jason Wilson. Founder. Jason Lee Wilson'
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel='icon' href='/favicon.ico' />
       </Head>
-      <main className="container">
-        <div className="grid-home">
-          <div>
-          
-          </div>
+      <main className='container'>
+        <div className='grid-home'>
+          <div></div>
           <div>
             <h1>About</h1>
             {/* <h2>Jason Lee Wilson</h2> */}
             <p>
-              Hello, I am Jason Lee Wilson, a Front-End Developer, and Web Designer
-              in the industry for over 18 years. Orignally a native from Texas, and
-              currently a resident in North Scottsdale, Arizona. I hold a Bachelor’s
-              degree in Game Design from Collins College. I have worked with a
-              number of clients, including IBM, Microchip, Crocs, Primavera, Jetset
-              Magazine, Coyotes NHL, Nicole Richie, Kellogs, Blue Global Media,
-              Checker Auto Parts, Microsoft, Hitachi, and Swift Transportation.
-              Currently I am responsible for designing graphics for websites and
-              landing pages, coding websites and assisting in web development
-              applications. I’m someone who is passionate about designing and
-              expressing my creative talents in an online environment. I offer a
-              versatile range of graphic design, web design and web development. As
-              a Web / Print designer, within the intensely pressurized and demanding
-              environment of the Online / Offline world. I offer a complete solution
-              ranging from website creation, design and maintenance for
+              Hello, I am Jason Lee Wilson, a Front-End Developer, and Web
+              Designer in the industry for over 20 years. Orignally a native
+              from Texas, and currently a resident outside North Dallas, Texas.
+              I hold a Bachelor's degree in Game Design from Collins College. I
+              have worked with a number of clients, including IBM, P.F. Chang's,
+              Microchip, Crocs, Primavera, Jetset Magazine, Coyotes NHL, Nicole
+              Richie, Kelloggs, Blue Global Media, Checker Auto Parts,
+              Microsoft, Hitachi, and Swift Transportation. Currently I am
+              responsible for designing graphics for websites and landing pages,
+              coding websites and assisting in web development applications. I'm
+              someone who is passionate about designing and expressing my
+              creative talents in an online environment. I offer a versatile
+              range of graphic design, web design and web development. As a Web
+              / Print designer, within the intensely pressurized and demanding
+              environment of the Online / Offline world. I offer a complete
+              solution ranging from website creation, design and maintenance for
               internet-based clients worldwide. By Jason Lee Wilson
             </p>
           </div>
