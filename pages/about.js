@@ -39,7 +39,7 @@ export default function About() {
               design, and web development. As a Web / Print designer, within the
               intensely pressurized and demanding environment of the Online /
               Offline world. I offer a complete solution ranging from website
-              creation, design and maintenance for internet-based clients
+              creation, design, and maintenance for internet-based clients
               worldwide. By Jason Lee Wilson
             </p>
           </div>
