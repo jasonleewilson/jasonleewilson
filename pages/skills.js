@@ -11,31 +11,31 @@ export default function Skills() {
       <Head>
         <title>Skills-jasonleewilson.com</title>
         <meta
-          name="description"
-          content="I offer a complete solution ranging from website creation, design and maintenance for internet-based clients worldwide. By Jason Wilson. Founder. Jason Lee Wilson"
+          name='description'
+          content='I offer a complete solution ranging from website creation, design and maintenance for internet-based clients worldwide. By Jason Wilson. Founder. Jason Lee Wilson'
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel='icon' href='/favicon.ico' />
       </Head>
-      <main className="container">
-        <div className="grid-home">
-            <div>
-            
-            </div>
-            <div>
-              <h1>Skills</h1>
-              <p>
-                HTML
-                <br /> Javascript
-                <br /> SCSS
-                <br /> Components
-                <br /> UI/UX
-                <br /> Design
-                <br /> Pagespeed
-                <br /> Google Anyltics / GTM
-                <br />
-              </p>
-            </div>
+      <main className='container'>
+        <div className='grid-home'>
+          <div></div>
+          <div>
+            <h1>Skills</h1>
+            <p>
+              HTML
+              <br /> Javascript
+              <br /> SCSS
+              <br /> Components
+              <br /> UI/UX
+              <br /> Design
+              <br /> Pagespeed
+              <br /> Google Anyltics / GTM
+              <br /> Conversion Optimization Specialist
+              <br /> Accessibility Guidelines (ADA/WCAG)
+              <br />
+            </p>
           </div>
+        </div>
       </main>
     </div>
   );

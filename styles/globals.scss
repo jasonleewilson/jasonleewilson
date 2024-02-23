@@ -1,12 +1,10 @@
 // @import url(https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css);
 
-
-
 @import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 @import 'variables';
 @import 'breakpoints';
+@import 'social-colors';
 
-$body-bg: #f3f3f0;
 html,
 body {
   color: #fff;
@@ -39,14 +37,6 @@ h1 {
   font-size: 2.5rem;
   // padding-left: 2rem;
 }
-
-.icons svg {font-size: 1.5rem;margin: 0 0.2rem;}
-.icons .html5 {color:rgb(228,	77,	38);}
-.icons .css3 {color:rgb(0, 109,186);}
-.icons .sass {color:rgb(191, 64, 128);}
-.icons .tailwind {color:rgb(56, 189, 248);}
-.icons .js {color:rgb(233, 202, 50);}
-.icons .react {color:rgb(20, 158, 202	);}
 
 .btn, .btn-danger a {
   background: $color-primary;

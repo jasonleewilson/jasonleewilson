@@ -6,7 +6,16 @@ const nextConfig = {
   i18n: {
     locales: ["en"],
     defaultLocale: "en",
-  }
-}
+  },
 
-module.exports = nextConfig
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "via.placeholder.com",
+      },
+    ],
+  },
+};
+
+module.exports = nextConfig;

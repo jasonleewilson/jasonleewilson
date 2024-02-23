@@ -6,6 +6,7 @@ import Link from "next/link";
 // import Footer from "/components/footer";
 import styles from "../styles/Home.module.scss";
 // import styles from '../styles/Nav.module.scss';
+
 import {
   SiTailwindcss,
   SiHtml5,
@@ -13,6 +14,7 @@ import {
   SiCss3,
   SiJavascript,
   SiReact,
+  SiFigma,
 } from "react-icons/si";
 
 export default function Home() {
@@ -48,6 +50,7 @@ export default function Home() {
               {/*<SiTailwindcss className="tailwind" />*/}{" "}
               <SiJavascript className='js' />
               <SiReact className='react' />
+              <SiFigma className='figma' />
             </p>
           </div>
           <div className='col-sm-12 col-md-6 align-self-center'>

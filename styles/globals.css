@@ -57,6 +57,10 @@ h1 {
   color: rgb(20, 158, 202);
 }
 
+.icons .figma {
+  color: rgb(142, 87, 251);
+}
+
 .btn, .btn-danger a {
   background: #CD2229;
   color: #fff;
