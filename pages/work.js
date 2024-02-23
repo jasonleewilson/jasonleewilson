@@ -64,7 +64,7 @@ export default function Work() {
                     target='_blank'
                     rel='noopener noreferrer'
                   >
-                    lunarnewyear.com <FaLink />
+                    pfchangs.com <FaLink />
                   </a>
                 </div>
               </div>
