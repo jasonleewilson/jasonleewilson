@@ -24,7 +24,7 @@ export default function About() {
             {/* <h2>Jason Lee Wilson</h2> */}
             <p>
               Hello, I am Jason Lee Wilson, a Front-End Developer, and Web
-              Designer in the industry for over 20 years. Orignally a native
+              Designer in the industry for over 25 years. Orignally a native
               from Texas, and currently a resident outside North Dallas, Texas.
               I hold a Bachelor&apos;s degree in Game Design from Collins
               College. I have worked with a number of clients, including IBM,
