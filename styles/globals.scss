@@ -33,9 +33,13 @@ p {
 
 h1 {
   // color: $color-primary;
-  background: $color-secondary;
+  background: $body-bg;
   font-size: 2.5rem;
   // padding-left: 2rem;
+}
+
+h1 span {
+  color: $color-primary;
 }
 
 h4 {

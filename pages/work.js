@@ -23,7 +23,7 @@ export default function Work() {
         <div className='grid-home'>
           <div>
             {/* Page Heading */}
-            <h1 className='my-4'>Work</h1>
+            <h1>Work</h1>
           </div>
 
           {/* Page Content */}

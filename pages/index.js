@@ -40,8 +40,15 @@ export default function Home() {
         <div className='row vh-100'>
           <div className='col-sm-12 col-md-6 align-self-center'>
             <h1 className={styles.title}>
-              “The word&apos;s “<s>CAN&apos;T</s>” or “<s>TRY</s>” are NOT in my
-              vocabulary.”
+              “The word&apos;s{" "}
+              <span>
+                "<del>CAN&apos;T</del>”
+              </span>
+              or
+              <span>
+                "<del>TRY</del>"
+              </span>
+              are NOT in my vocabulary."
             </h1>
             <p className='text-right'>by: Jason Lee Wilson</p>
             <p className='text-right icons'>

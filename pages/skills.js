@@ -24,6 +24,10 @@ export default function Skills() {
             <p>
               HTML
               <br /> Javascript
+              <br /> React.js
+              <br /> Vue.js
+              <br /> Next.js
+              <br /> CSS
               <br /> SCSS
               <br /> Components
               <br /> UI/UX
