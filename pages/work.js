@@ -1,11 +1,12 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import Navbar from "/components/navbar";
-import Footer from "/components/footer";
+// import Navbar from "/components/navbar";
+// import Footer from "/components/footer";
+import Portfolioinput from "../components/Portfolioinput";
 import styles from "../styles/Work.module.scss";
 
-import { FaLink } from "react-icons/fa";
+import { FaLink, FaGithub } from "react-icons/fa";
 
 export default function Work() {
   return (
@@ -28,396 +29,104 @@ export default function Work() {
           {/* Page Content */}
 
           <div className='row'>
-            <div className='col-lg-6 col-md-12 col-sm-12 mb-4'>
-              <div className='card h-100'>
-                <a
-                  href='https://www.pfchangs.com'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  <Image
-                    className='card-img-top'
-                    src={require("../src/images/project-pfchangs.jpg")}
-                    alt=''
-                    width={700}
-                    height={400}
-                  />
-                </a>
-                <div className='card-body'>
-                  <h4 className='card-title'>
-                    <a
-                      href='https://www.pfchangs.com'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                    >
-                      P.F. Changs
-                    </a>
-                  </h4>
-                  {/* <p className='card-text'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                    viverra euismod odio, gravida pellentesque urna varius
-                    vitae.
-                  </p> */}
+            <Portfolioinput
+              title={"P.F. Chang's"}
+              // description={"my cool description"}
+              Websitelink={"https://www.pfchangs.com"}
+              Myimage={"/src/images/project-pfchangs.jpg"}
+            />
 
-                  <a
-                    href='https://www.pfchangs.com'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                  >
-                    pfchangs.com <FaLink />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className='col-lg-6 col-md-12 col-sm-12 mb-4'>
-              <div className='card h-100'>
-                <a
-                  href='http://lunarnewyear.com'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  <Image
-                    className='card-img-top'
-                    src={require("../src/images/project-lunar-new-year.jpg")}
-                    alt=''
-                    width={700}
-                    height={400}
-                  />
-                </a>
-                <div className='card-body'>
-                  <h4 className='card-title'>
-                    <a
-                      href='http://lunarnewyear.com'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                    >
-                      Lunar New Year
-                    </a>
-                  </h4>
-                  {/* <p className='card-text'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                    viverra euismod odio, gravida pellentesque urna varius
-                    vitae.
-                  </p> */}
+            <Portfolioinput
+              title={"Luckycat"}
+              // description={"my cool description"}
+              Websitelink={"https://luckycatfund.com"}
+              Myimage={"/src/images/project-luckycatfund.jpg"}
+            />
 
-                  <a
-                    href='http://lunarnewyear.com'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                  >
-                    lunarnewyear.com <FaLink />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className='col-lg-6 col-md-12 col-sm-12 mb-4'>
-              <div className='card h-100'>
+            <Portfolioinput
+              title={"Lunar New Year"}
+              Websitelink={"http://lunarnewyear.com"}
+              Myimage={"/src/images/project-lunar-new-year.jpg"}
+            />
+
+            <Portfolioinput
+              title={"Pagoda Asian Grill"}
+              // description={<p>my cool description</p>}
+              Websitelink={"https://www.pagodaasiangrill.com"}
+              Myimage={"/src/images/pagoda-asian-grill.jpg"}
+            />
+
+            <Portfolioinput
+              title={"EPTex"}
+              Websitelink={"https://eptexas.com"}
+              Myimage={"/src/images/project-eptexas.jpg"}
+            />
+
+            <Portfolioinput
+              title={"P.F. Chang's - Global"}
+              Websitelink={"https://www.pfchangs.com/global"}
+              Myimage={"/src/images/project-pfchangs-gbd.jpg"}
+            />
+
+            <Portfolioinput
+              title={"Bitcoin Current Price"}
+              Websitelink={"https://bitcoin-current-price.com"}
+              Myimage={"/src/images/project-bitcoin-current-price.jpg"}
+              Repolink={
                 <a
-                  href='https://www.pagodaasiangrill.com'
+                  href='https://github.com/jasonleewilson/bitcoin-current-price'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <Image
-                    className='card-img-top'
-                    src={require("../src/images/pagoda-asian-grill.jpg")}
-                    alt=''
-                    width={700}
-                    height={400}
-                  />
+                  <FaGithub /> Github Repo
                 </a>
-                <div className='card-body'>
-                  <h4 className='card-title'>
-                    <a
-                      href='https://www.pagodaasiangrill.com'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                    >
-                      Pagoda Asian Grill
-                    </a>
-                  </h4>
-                  {/* <p className='card-text'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                    viverra euismod odio, gravida pellentesque urna varius
-                    vitae.
-                  </p> */}
-                  <a
-                    href='https://www.pagodaasiangrill.com'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                  >
-                    pagodaasiangrill.com <FaLink />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className='col-lg-6 col-md-12 col-sm-12 mb-4'>
-              <div className='card h-100'>
+              }
+            />
+
+            <Portfolioinput
+              title={"Current Price"}
+              Websitelink={"https://www.current-price.com"}
+              Myimage={"/src/images/project-current-price.jpg"}
+              Repolink={
                 <a
-                  href='https://eptexas.com'
+                  href='https://github.com/jasonleewilson/current-price'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <Image
-                    className='card-img-top'
-                    src={require("../src/images/project-eptexas.jpg")}
-                    alt=''
-                    width={700}
-                    height={400}
-                  />
+                  <FaGithub /> Github Repo
                 </a>
-                <div className='card-body'>
-                  <h4 className='card-title'>
-                    <a
-                      href='https://eptexas.com'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                    >
-                      EPTex
-                    </a>
-                  </h4>
-                  {/* <p className='card-text'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                    viverra euismod odio, gravida pellentesque urna varius
-                    vitae.
-                  </p> */}
-                  <a
-                    href='https://eptexas.com'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                  >
-                    eptexas.com <FaLink />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className='col-lg-6 col-md-12 col-sm-12 mb-4'>
-              <div className='card h-100'>
+              }
+            />
+
+            <Portfolioinput
+              title={"Hello World Pro"}
+              Websitelink={"https://www.helloworldpro.com"}
+              Myimage={"/src/images/project-helloworldpro.jpg"}
+              Repolink={
                 <a
-                  href='https://bitcoin-current-price.com'
+                  href='https://github.com/jasonleewilson/helloworldpro'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <Image
-                    className='card-img-top'
-                    src={require("../src/images/project-bitcoin-current-price.jpg")}
-                    alt=''
-                    width={700}
-                    height={400}
-                  />
+                  <FaGithub /> Github Repo
                 </a>
-                <div className='card-body'>
-                  <h4 className='card-title'>
-                    <a
-                      href='https://bitcoin-current-price.com'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                    >
-                      Bitcoin Current Price
-                    </a>
-                  </h4>
-                  {/* <p className='card-text'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                    viverra euismod odio, gravida pellentesque urna varius
-                    vitae.
-                  </p> */}
-                  <a
-                    href='https://bitcoin-current-price.com'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                  >
-                    bitcoin-current-price.com <FaLink />
-                  </a>
-                  <a
-                    href='https://github.com/jasonleewilson/bitcoin-current-price'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                  >
-                    &nbsp;|&nbsp;repo <FaLink />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className='col-lg-6 col-md-12 col-sm-12 mb-4'>
-              <div className='card h-100'>
+              }
+            />
+
+            <Portfolioinput
+              title={"Jason Lee Wilson Github.io"}
+              Websitelink={"https://jasonleewilson.github.io"}
+              Myimage={"/src/images/project-github-jasonleewilson.jpg"}
+              Repolink={
                 <a
-                  href='https://www.current-price.com'
+                  href='https://github.com/jasonleewilson/jasonleewilson'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <Image
-                    className='card-img-top'
-                    src={require("../src/images/project-current-price.jpg")}
-                    alt=''
-                    width={700}
-                    height={400}
-                  />
+                  <FaGithub /> Github Repo
                 </a>
-                <div className='card-body'>
-                  <h4 className='card-title'>
-                    <a
-                      href='https://www.current-price.com'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                    >
-                      Current Price
-                    </a>
-                  </h4>
-                  {/* <p className='card-text'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                    viverra euismod odio, gravida pellentesque urna varius
-                    vitae.
-                  </p> */}
-                  <a
-                    href='https://www.current-price.com'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                  >
-                    current-price.com <FaLink />
-                  </a>
-                  <a
-                    href='https://github.com/jasonleewilson/current-price.com'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                  >
-                    &nbsp;|&nbsp;repo <FaLink />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className='col-lg-6 col-md-12 col-sm-12 mb-4'>
-              <div className='card h-100'>
-                <a
-                  href='https://luckycatfund.com'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  <Image
-                    className='card-img-top'
-                    src={require("../src/images/project-lucky-cat.jpg")}
-                    alt=''
-                    width={700}
-                    height={400}
-                  />
-                </a>
-                <div className='card-body'>
-                  <h4 className='card-title'>
-                    <a
-                      href='https://luckycatfund.com'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                    >
-                      Luckycat
-                    </a>
-                  </h4>
-                  {/* <p className='card-text'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                    viverra euismod odio, gravida pellentesque urna varius
-                    vitae.
-                  </p> */}
-                  <a
-                    href='https://luckycatfund.com'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                  >
-                    luckycatfund.com <FaLink />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className='col-lg-6 col-md-12 col-sm-12 mb-4'>
-              <div className='card h-100'>
-                <a
-                  href='https://www.helloworldpro.com'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  <Image
-                    className='card-img-top'
-                    src={require("../src/images/project-helloworldpro.jpg")}
-                    alt=''
-                    width={700}
-                    height={400}
-                  />
-                </a>
-                <div className='card-body'>
-                  <h4 className='card-title'>
-                    <a
-                      href='https://www.helloworldpro.com'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                    >
-                      Hello World Pro
-                    </a>
-                  </h4>
-                  {/* <p className='card-text'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                    viverra euismod odio, gravida pellentesque urna varius
-                    vitae.
-                  </p> */}
-                  <a
-                    href='https://www.helloworldpro.com'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                  >
-                    helloworldpro.com <FaLink />
-                  </a>
-                  <a
-                    href='https://github.com/jasonleewilson/helloworldpro'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                  >
-                    &nbsp;|&nbsp;repo <FaLink />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className='col-lg-6 col-md-12 col-sm-12 mb-4'>
-              <div className='card h-100'>
-                <a
-                  href='https://jasonleewilson.github.io'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  <Image
-                    className='card-img-top'
-                    src={require("../src/images/project-github-jasonleewilson.jpg")}
-                    alt=''
-                    width={700}
-                    height={400}
-                  />
-                </a>
-                <div className='card-body'>
-                  <h4 className='card-title'>
-                    <a
-                      href='https://jasonleewilson.github.io'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                    >
-                      Jason Lee Wilson Github.io
-                    </a>
-                  </h4>
-                  {/* <p className='card-text'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                    viverra euismod odio, gravida pellentesque urna varius
-                    vitae.
-                  </p> */}
-                  <a
-                    href='https://jasonleewilson.github.io'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                  >
-                    jasonleewilson.github.io <FaLink />
-                  </a>
-                  <a
-                    href='https://github.com/jasonleewilson/jasonleewilson.github.io'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                  >
-                    &nbsp;|&nbsp;repo <FaLink />
-                  </a>
-                </div>
-              </div>
-            </div>
+              }
+            />
           </div>
           {/* /.row */}
         </div>
