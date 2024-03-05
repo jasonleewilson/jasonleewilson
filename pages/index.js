@@ -42,13 +42,13 @@ export default function Home() {
             <h1 className={styles.title}>
               “The word&apos;s{" "}
               <span>
-                "<del>CAN&apos;T</del>”
+                &quot;<del>CAN&apos;T</del>&quot;
               </span>
               or
               <span>
-                "<del>TRY</del>"
+                &quot;<del>TRY</del>&quot;
               </span>
-              are NOT in my vocabulary."
+              are NOT in my vocabulary.&quot;
             </h1>
             <p className='text-right'>by: Jason Lee Wilson</p>
             <p className='text-right icons'>
