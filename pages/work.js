@@ -19,7 +19,7 @@ export default function Work() {
         />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <main className='container'>
+      <main className='container-fluid'>
         <div className='grid-home'>
           <div>
             {/* Page Heading */}
