@@ -6,6 +6,7 @@ import Link from "next/link";
 // import Footer from "/components/footer";
 import styles from "../styles/Home.module.scss";
 // import styles from '../styles/Nav.module.scss';
+// import styles from "../styles/Footer.module.scss";
 
 import {
   SiTailwindcss,
