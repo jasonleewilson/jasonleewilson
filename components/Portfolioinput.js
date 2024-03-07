@@ -31,6 +31,7 @@ const Portfolioinput = ({
             alt='web portfolio image'
             width={700}
             height={400}
+            loader={imageLoader}
             quality={80}
             priority={true}
           />
