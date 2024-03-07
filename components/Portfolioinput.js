@@ -31,6 +31,8 @@ const Portfolioinput = ({
             alt='web portfolio image'
             width={700}
             height={400}
+            quality={80}
+            priority={true}
           />
         </a>
         <div className='card-body'>
