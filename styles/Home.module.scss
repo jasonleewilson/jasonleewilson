@@ -119,6 +119,11 @@
     line-height: 1.15;
     font-size: 8vw;
   }
+
+  //remove after a fix is found
+  .Footer_footer__BH5s_ {
+    display: none;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
