@@ -58,10 +58,8 @@ export default function Home() {
               <Link href='/work/'>
                 <button
                   type='button'
-                  // href='/work/'
                   className='btn btn-danger float-right'
                   aria-label='Goto Work'
-                  // data-href="/work/"
                 >
                   Go to Work
                 </button>
