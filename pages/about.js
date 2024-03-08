@@ -1,8 +1,8 @@
 import Head from "next/head";
 // import Image from "next/image";
 // import Link from "next/link";
-// import Navbar from "/components/navbar";
-// import Footer from "/components/footer";
+import Navbar from "/components/navbar";
+import Footer from "/components/footer";
 import styles from "../styles/About.module.scss";
 
 export default function About() {
@@ -16,6 +16,7 @@ export default function About() {
         />
         <link rel='icon' href='/favicon.ico' />
       </Head>
+      <Navbar />
       <main className='container'>
         <div className='grid-home'>
           <div></div>
@@ -45,6 +46,7 @@ export default function About() {
           </div>
         </div>
       </main>
+      <Footer />
     </div>
   );
 }

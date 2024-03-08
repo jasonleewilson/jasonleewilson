@@ -2,8 +2,8 @@ import Head from "next/head";
 // import Image from 'next/image'
 import Link from "next/link";
 // import Image from 'next/image'
-// import Navbar from "/components/navbar";
-// import Footer from "/components/footer";
+import Navbar from "/components/navbar";
+import Footer from "/components/footer";
 import styles from "../styles/Home.module.scss";
 // import styles from '../styles/Nav.module.scss';
 // import styles from "../styles/Footer.module.scss";
@@ -20,7 +20,7 @@ import {
 
 export default function Home() {
   return (
-    <div className='container-fluid bg-image'>
+    <div className='container-fluid bg-image vh-100'>
       <Head>
         <title>
           jasonleewilson.com &#8211; Building the web pixel by pixel
@@ -36,9 +36,9 @@ export default function Home() {
         />
         <link rel='preload' href='/photo1.jpg' as='image' />
       </Head>
-
+      <Navbar />
       <main className='container'>
-        <div className='row vh-100'>
+        <div className='row'>
           <div className='col-sm-12 col-md-6 align-self-center'>
             <h1 className={styles.title}>
               “The word&apos;s{" "}
@@ -51,7 +51,23 @@ export default function Home() {
               </span>
               are NOT in my vocabulary.&quot;
             </h1>
-            <p className='text-right'>by: Jason Lee Wilson</p>
+
+            <p className='text-right'>
+              by: Jason Lee Wilson
+              <br />
+              <Link href='/work/'>
+                <button
+                  type='button'
+                  // href='/work/'
+                  className='btn btn-danger float-right'
+                  aria-label='Goto Work'
+                  // data-href="/work/"
+                >
+                  Go to Work
+                </button>
+              </Link>
+            </p>
+
             <p className='text-right icons'>
               <SiHtml5 className='html5' /> <SiCss3 className='css3' />{" "}
               <SiSass className='sass' />
@@ -72,20 +88,9 @@ export default function Home() {
             </p>
 
             {/* <Link to="/work/">Goto Work</Link> */}
-
-            <Link href='/work/'>
-              <button
-                type='button'
-                // href='/work/'
-                className='btn btn-danger float-right'
-                aria-label='Goto Work'
-                // data-href="/work/"
-              >
-                Go to Work
-              </button>
-            </Link>
           </div>
         </div>
+        <Footer />
       </main>
     </div>
   );

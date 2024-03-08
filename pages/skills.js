@@ -16,6 +16,7 @@ export default function Skills() {
         />
         <link rel='icon' href='/favicon.ico' />
       </Head>
+      <Navbar />
       <main className='container'>
         <div className='grid-home'>
           <div></div>
@@ -41,6 +42,7 @@ export default function Skills() {
           </div>
         </div>
       </main>
+      <Footer />
     </div>
   );
 }

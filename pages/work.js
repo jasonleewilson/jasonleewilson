@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-// import Navbar from "/components/navbar";
-// import Footer from "/components/footer";
+import Navbar from "/components/navbar";
+import Footer from "/components/footer";
 import Portfolioinput from "../components/Portfolioinput";
 import styles from "../styles/Work.module.scss";
 
@@ -19,6 +19,7 @@ export default function Work() {
         />
         <link rel='icon' href='/favicon.ico' />
       </Head>
+      <Navbar />
       <main className='container-fluid'>
         <div className='grid-home'>
           <div>
@@ -132,6 +133,7 @@ export default function Work() {
         </div>
         {/* /.container */}
       </main>
+      <Footer />
     </div>
   );
 }
