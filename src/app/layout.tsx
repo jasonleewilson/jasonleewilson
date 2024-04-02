@@ -41,7 +41,7 @@ export default function RootLayout({
           <Navbar />
           {children}
           <Footer />
-          <form name='contact-jasonleewilson' data-netlify='true' hidden>
+          <form name='contactjasonleewilson' data-netlify='true' hidden>
             <div>
               <input type='text' id='name' name='name' />
             </div>

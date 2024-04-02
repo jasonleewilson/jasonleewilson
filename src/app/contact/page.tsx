@@ -25,16 +25,16 @@ export default function Contact() {
           </div>
           <div className='col-span-2 row-span-3'>
             <form
-              name='contact-jasonleewilson'
+              name='contactjasonleewilson'
               action='/thankyou'
               method='post'
               className='mt-10'
-              // data-netlify='true'
+              data-netlify='true'
             >
               <input
                 type='hidden'
                 name='form-name'
-                value='contact-jasonleewilson'
+                value='contactjasonleewilson'
               />
               <div className='grid gap-6 sm:grid-cols-2'>
                 <div className='relative z-0'>
