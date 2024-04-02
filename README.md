@@ -1,3 +1,39 @@
+<!--
+**jasonleewilson/jasonleewilson** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
+
+## Hi there 👋, I am Jason Lee Wilson! 😄
+
+I'm a frontend full stack engineer, with a passion for responsive and fast web applications. As a engineer, I work on making my code DRY, readable, scalable, maintainable, reusable and performant.
+
+Main Skills:
+
+- 👕✨DRY & Clean coding
+- 🚀 Performance Optimization
+- 🔬 Problem Solving
+- 📐 UX Prototyping
+- 🐛 Debugging
+- 👌 Site Reliability
+- 💻 System Management
+- 🧪 Test Driven Development
+- 🎨 Raster/Vector Pusher
+
+Check out my [portfolio site](https://jasonleewilson.com/)
+
+<!-- ADDITIONAL PROJECT INFORMATION -->
+
+<!-- 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -34,3 +70,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+-->

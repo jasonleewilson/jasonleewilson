@@ -1,0 +1,52 @@
+/* Social Icon Colors */
+
+.icons svg {
+  font-size: 1.5rem;
+  margin: 0 0.3rem;
+}
+.icons .html5 {
+  color: rgb(228, 77, 38);
+}
+.icons .css3 {
+  color: rgb(0, 109, 186);
+}
+.icons .sass {
+  color: rgb(191, 64, 128);
+}
+
+.icons .js {
+  color: rgb(233, 202, 50);
+}
+.icons .react {
+  color: rgb(20, 158, 202);
+}
+.icons .figma {
+  color: rgb(10,207,131);
+}
+
+.icons .linkedin {
+  color: rgb(0, 119, 181);
+}
+.icons .twitter {
+  color: rgb(0, 0, 0);
+}
+.icons .github {
+  color: rgb(0, 0, 0);
+}
+.icons .instagram {
+  color: rgb(142, 87, 251);
+}
+.icons .pinterest {
+  color: rgb(230, 0, 35);
+}
+.icons .codepen {
+  color: rgb(0, 0, 0);
+}
+
+.icons .tailwindcss {
+  color: rgb(6,182,212);
+}
+
+.icons .nextjs {
+  color: rgb(0, 0, 0);
+}

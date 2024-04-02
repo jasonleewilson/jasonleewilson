@@ -1,14 +1,45 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("./styles/colors-social.css");
 
 :root {
+  --primary-color: rgb(205, 34, 41);
+}
+
+p a:link {color: var(--primary-color);}
+p a:visited {color: var(--primary-color);}
+/* a:focus, a:hover {…}
+a:active {….}  */
+
+html {
+  overflow-y: scroll;
+  font-family: var(--my-font-family), sans-serif;
+
+  cursor:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAATCAMAAAB4HKeYAAAACVBMVEX///8AAAD///9+749PAAAAAXRSTlMAQObYZgAAADRJREFUeAFjwAsYsfMYQYgRLsLICKWhskxMTDAmCEMAwhQmEEDho8szUiqPaR+xfIR7sQMAR6QAjICqvMYAAAAASUVORK5CYII=),auto;
+
+}
+
+::selection {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.tooltip {
+  @apply invisible absolute;
+}
+
+.has-tooltip:hover .tooltip {
+  @apply visible z-50;
+}
+
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
@@ -30,4 +61,4 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
+} */
