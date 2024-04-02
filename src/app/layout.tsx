@@ -43,7 +43,7 @@ export default function RootLayout({
         netlify-honeypot='bot-field'
         hidden
       >
-        <input type='text' name='name' />
+        <input type='text' name='name-jasonleewilson' />
         <input type='email' name='email' />
         <textarea name='message'></textarea>
       </form>

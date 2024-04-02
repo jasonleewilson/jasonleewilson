@@ -1,5 +1,3 @@
-"use client";
-
 import type { Metadata } from "next";
 import Link from "next/link";
 
@@ -35,7 +33,7 @@ export default function Contact() {
             >
               <input
                 type='hidden'
-                name='form-name'
+                name='contact-jasonleewilson'
                 value='contact-jasonleewilson'
               />
               <div className='grid gap-6 sm:grid-cols-2'>
