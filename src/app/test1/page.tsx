@@ -35,6 +35,7 @@ export default function test1() {
               className='mx-auto mb-0 mt-8 max-w-md space-y-4'
               data-netlify='true'
             >
+              <input type='hidden' name='form-name' value='contact' />
               <div>
                 <label htmlFor='email' className='sr-only'>
                   Email
