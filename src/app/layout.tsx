@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Oswald } from "next/font/google";
-// import { GoogleTagManager } from "@next/third-parties/google";
+import { GoogleTagManager } from "@next/third-parties/google";
 import "./globals.css";
 import Navbar from "../app/components/Navbar";
 import Footer from "../app/components/Footer";
@@ -33,7 +33,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en' className='bg-gray-100'>
-      {/* <GoogleTagManager gtmId='GTM-N6T8XD' /> */}
+      <GoogleTagManager gtmId='GTM-N6T8XD' />
       {/* <body className='flex flex-col h-screen bg-gray-50'> */}
       <body className={myFont.className}>
         <div className='flex flex-col h-screen bg-gray-100'>
