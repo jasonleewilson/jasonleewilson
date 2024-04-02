@@ -5,21 +5,19 @@
     <title>Document</title>
 </head>
 <body>
-    <form name='contactjasonleewilson' data-netlify='true' hidden>
-        <div>
-          <input type='text' id='name' name='name' />
-        </div>
-        <div>
-          <input type='text' id='email' name='email' />
-        </div>
-        <div>
-          <textarea name='message' id='message'></textarea>
-        </div>
-        <div>
-          <button type='submit' value='Submit Message'>
-            Send
-          </button>
-        </div>
-      </form>
+    <!-- A little help for the Netlify post-processing bots -->
+    <form name="contactjasonleewilson" data-netlify="true" hidden>
+        <label for="name">name:</label>
+        <input id="name" type="text" name="name" />
+
+        <label for="email">Email:</label>
+        <input id="email" type="email" name="email" />
+
+        <label for="message">message:</label>
+        <textarea id="message" name="message"></textarea>
+
+        <button type="submit" name='submit'></button>
+
+    </form>
 </body>
 </html>
