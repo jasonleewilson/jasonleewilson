@@ -49,7 +49,7 @@ export default function RootLayout({
               <input type='text' id='email' name='email' />
             </div>
             <div>
-              <textarea name='message' id='message' rows='5'></textarea>
+              <textarea name='message' id='message'></textarea>
             </div>
           </form>
         </div>
