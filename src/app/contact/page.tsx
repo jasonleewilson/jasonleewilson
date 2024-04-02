@@ -31,6 +31,11 @@ export default function Contact() {
               className='mt-10'
               data-netlify='true'
             >
+              <input
+                type='hidden'
+                name='contact-jasonleewilson'
+                value='contact-jasonleewilson'
+              />
               <div className='grid gap-6 sm:grid-cols-2'>
                 <div className='relative z-0'>
                   <input
