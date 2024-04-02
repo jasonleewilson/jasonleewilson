@@ -41,22 +41,6 @@ export default function RootLayout({
           <Navbar />
           {children}
           <Footer />
-          <form name='contactjasonleewilson' data-netlify='true' hidden>
-            <div>
-              <input type='text' id='name' name='name' />
-            </div>
-            <div>
-              <input type='text' id='email' name='email' />
-            </div>
-            <div>
-              <textarea name='message' id='message'></textarea>
-            </div>
-            <div>
-              <button type='submit' value='Submit Message'>
-                Send
-              </button>
-            </div>
-          </form>
         </div>
       </body>
     </html>
