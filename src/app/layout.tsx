@@ -51,6 +51,11 @@ export default function RootLayout({
             <div>
               <textarea name='message' id='message'></textarea>
             </div>
+            <div>
+              <button type='submit' value='Submit Message'>
+                Send
+              </button>
+            </div>
           </form>
         </div>
       </body>
