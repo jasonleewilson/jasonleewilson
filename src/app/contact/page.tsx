@@ -29,13 +29,19 @@ export default function Contact() {
               action='/thankyou'
               method='post'
               className='mt-10'
-              data-netlify='true'
+              // data-netlify='true'
             >
+              <input
+                type='hidden'
+                name='form-name'
+                value='contact-jasonleewilson'
+              />
               <div className='grid gap-6 sm:grid-cols-2'>
                 <div className='relative z-0'>
                   <input
                     type='text'
                     name='name'
+                    id='name'
                     aria-label='name'
                     className='peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-primary focus:outline-none focus:ring-0'
                     placeholder=' '
@@ -49,6 +55,7 @@ export default function Contact() {
                   <input
                     type='text'
                     name='email'
+                    id='email'
                     aria-label='email'
                     className='peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-primary focus:outline-none focus:ring-0'
                     placeholder=' '
@@ -61,6 +68,7 @@ export default function Contact() {
                 <div className='relative z-0 col-span-2'>
                   <textarea
                     name='message'
+                    id='message'
                     aria-label='message'
                     // rows='5'
                     className='peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-primary focus:outline-none focus:ring-0'
