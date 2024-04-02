@@ -33,7 +33,7 @@ export default function Contact() {
             >
               <input
                 type='hidden'
-                name='contact-jasonleewilson'
+                name='form-name'
                 value='contact-jasonleewilson'
               />
               <div className='grid gap-6 sm:grid-cols-2'>
