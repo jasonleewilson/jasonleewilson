@@ -29,7 +29,7 @@ export default function Contact() {
               action='/thankyou'
               method='post'
               className='mt-10'
-              netlify='true'
+              data-netlify='true'
             >
               <div className='grid gap-6 sm:grid-cols-2'>
                 <div className='relative z-0'>
