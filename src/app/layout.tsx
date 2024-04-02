@@ -39,7 +39,7 @@ export default function RootLayout({
       {/* A little help for the Netlify bots if you're not using a SSG */}
       <form
         name='contact-jasonleewilson'
-        netlify
+        data-netlify='true'
         netlify-honeypot='bot-field'
         hidden
       >
