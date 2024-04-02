@@ -33,7 +33,7 @@ export default function test1() {
               action='/thankyou'
               method='post'
               className='mx-auto mb-0 mt-8 max-w-md space-y-4'
-              netlify='true'
+              data-netlify='true'
             >
               <div>
                 <label htmlFor='email' className='sr-only'>
