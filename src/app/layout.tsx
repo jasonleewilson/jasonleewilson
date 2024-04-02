@@ -36,7 +36,7 @@ export default function RootLayout({
       <GoogleTagManager gtmId='GTM-N6T8XD' />
       {/* <body className='flex flex-col h-screen bg-gray-50'> */}
       <body className={myFont.className}>
-        <div className='flex flex-col h-screen bg-gray-100'>
+        <div className='flex flex-col h-screen bg-gray-100 p-4'>
           <Navbar />
           {children}
           <Footer />

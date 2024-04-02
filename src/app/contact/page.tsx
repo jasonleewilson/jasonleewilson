@@ -30,8 +30,12 @@ export default function Contact() {
               method='post'
               className='mt-10'
               data-netlify='true'
-              //issue netlify
             >
+              <input
+                type='hidden'
+                name='form-jasonleewilson'
+                value='contact'
+              ></input>
               <div className='grid gap-6 sm:grid-cols-2'>
                 <div className='relative z-0'>
                   <input
