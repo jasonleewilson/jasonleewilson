@@ -76,7 +76,6 @@ export default function test1() {
 
                 <div className='relative'>
                   <textarea
-                    type='textarea'
                     className='w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm form-control'
                     name='message'
                     aria-label='message'
