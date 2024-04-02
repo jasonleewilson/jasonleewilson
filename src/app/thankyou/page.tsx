@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function Thankyou() {
   return (
     <>
-      <main className=' container mx-auto'>
+      <main className='flex-grow container-fluid mt-20 sm:px-2 md:px-4 lg:px-4'>
         <h1 className='text-4xl font-medium text-right mr-2 mb-4'>Thank you</h1>
         <p className='block'>I appreciate you submitting the contact form.</p>
       </main>
