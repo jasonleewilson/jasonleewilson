@@ -29,13 +29,8 @@ export default function Contact() {
               action='/thankyou'
               method='post'
               className='mt-10'
-              data-netlify='true'
+              netlify='true'
             >
-              <input
-                type='hidden'
-                name='contact-jasonleewilson'
-                value='contact-jasonleewilson'
-              />
               <div className='grid gap-6 sm:grid-cols-2'>
                 <div className='relative z-0'>
                   <input
@@ -66,6 +61,7 @@ export default function Contact() {
                 <div className='relative z-0 col-span-2'>
                   <textarea
                     name='message'
+                    type='textarea'
                     aria-label='message'
                     // rows='5'
                     className='peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-primary focus:outline-none focus:ring-0'
@@ -80,6 +76,7 @@ export default function Contact() {
               <button
                 type='submit'
                 className='mt-5 rounded-md bg-primary px-10 py-2 text-white'
+                value='Submit Message'
               >
                 Send Message
               </button>

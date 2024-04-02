@@ -36,18 +36,6 @@ export default function RootLayout({
       <GoogleTagManager gtmId='GTM-N6T8XD' />
       {/* <body className='flex flex-col h-screen bg-gray-50'> */}
 
-      {/* A little help for the Netlify bots if you're not using a SSG */}
-      <form
-        name='contact-jasonleewilson'
-        data-netlify='true'
-        netlify-honeypot='bot-field'
-        hidden
-      >
-        <input type='text' name='name-jasonleewilson' />
-        <input type='email' name='email' />
-        <textarea name='message'></textarea>
-      </form>
-
       <body className={myFont.className}>
         <div className='flex flex-col h-screen bg-gray-100 p-4'>
           <Navbar />
