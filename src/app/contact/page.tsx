@@ -27,7 +27,7 @@ export default function Contact() {
           <div className='col-span-2 row-span-3'>
             <form
               name='contactjasonleewilson'
-              action='/thankyou'
+              value='/thankyou'
               action='https://formsubmit.co/robotici@yahoo.com'
               method='post'
               className='mt-10'
