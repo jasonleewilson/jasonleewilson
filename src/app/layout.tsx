@@ -37,7 +37,7 @@ export default function RootLayout({
       {/* <body className='flex flex-col h-screen bg-gray-50'> */}
 
       <body className={myFont.className}>
-        <div className='flex flex-col h-screen bg-gray-100 p-4'>
+        <div className='flex flex-col h-screen bg-gray-100'>
           <Navbar />
           {children}
           <Footer />

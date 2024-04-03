@@ -59,9 +59,9 @@ const Card: React.FC<CardProps> = ({
 
           <div className='px-6 py-4 border-2 border-t-0'>
             <div className='text-2xl mb-2 uppercase line-clamp-2'>{name}</div>
-            <p className='text-gray-700 text-base truncate uppercase'>
+            {/* <p className='text-gray-700 text-base truncate uppercase'>
               {description}
-            </p>
+            </p> */}
             <a
               href={siteUrl}
               target='_blank'

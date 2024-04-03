@@ -16,8 +16,8 @@ export default function Footer() {
   const date = new Date();
   const year = date.getFullYear();
   return (
-    <footer className='flex justify-between p-4'>
-      <span className='flex icons'>
+    <footer className='grid sm:grid-cols-1 md:grid-cols-2 item-center justify-center p-4'>
+      <div className='flex flex-row justify-evenly sm:justify-center md:justify-start icons mb-4 md:mb-0'>
         <div className='has-tooltip'>
           <span className='tooltip rounded shadow-lg p-1 bg-gray-100 text-primary -mt-8'>
             Linkedin
@@ -93,10 +93,10 @@ export default function Footer() {
             <SiGithub className='github' title='github' />
           </a>
         </div>
-      </span>
-      <span className='text-gray-700'>
+      </div>
+      <div className='md:text-right text-gray-700'>
         &#169; Copyright 1999-{year} jasonleewilson.com
-      </span>
+      </div>
     </footer>
   );
 }

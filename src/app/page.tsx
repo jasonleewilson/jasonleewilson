@@ -22,7 +22,7 @@ import {
 
 export default function Home() {
   return (
-    <main className='flex-grow container-fluid bg-gray-100 mt-20 sm:px-2 md:px-4 lg:px-4'>
+    <main className='flex-grow container-fluid bg-gray-100 mt-20 :px-4 lg:px-4'>
       <section className='bg-gray-100 grid h-full place-items-center'>
         <div className='mx-auto max-w-screen-xl px-4'>
           <div className='mx-auto max-w-xl text-center'>
