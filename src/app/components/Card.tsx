@@ -49,9 +49,9 @@ const Card: React.FC<CardProps> = ({
                 <div className='flex-row text-center'>
                   <h1 className='text-gray-50 font-bold text-lg'>{name}</h1>
                   <p className='text-gray-200 font-medium text-sm'>{siteUrl}</p>
-                  <small className='text-xs font-light text-gray-300'>
+                  {/* <small className='text-xs font-light text-gray-300'>
                     {description}
-                  </small>
+                  </small> */}
                 </div>
               </div>
             </div>
