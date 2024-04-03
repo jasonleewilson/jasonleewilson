@@ -28,9 +28,10 @@ export default function Contact() {
             <form
               name='contactjasonleewilson'
               action='/thankyou'
+              action='https://formsubmit.co/robotici@yahoo.com'
               method='post'
               className='mt-10'
-              data-netlify='true'
+              // data-netlify='true'
             >
               <input
                 type='hidden'
