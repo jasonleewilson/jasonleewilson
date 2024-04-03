@@ -99,7 +99,7 @@ export default function Work() {
       id: 10,
       name: "Jason Lee Wilson - This website",
       description: "Portfolio 10 - description",
-      imageUrl: "/images/project-github-jasonleewilson.jpg",
+      imageUrl: "/images/project-jasonleewilson.jpg",
       siteUrl: "https://jasonleewilson.com",
       repoUrl: "https://github.com/jasonleewilson/",
     },
