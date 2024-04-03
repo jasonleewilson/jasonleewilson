@@ -23,5 +23,6 @@
                                                                                 
 
 User-agent: *
+Allow: /
 Disallow: 
 Sitemap: https://jasonleewilson.com/sitemap.xml
