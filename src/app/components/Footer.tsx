@@ -16,7 +16,7 @@ export default function Footer() {
   const date = new Date();
   const year = date.getFullYear();
   return (
-    <footer className='flex justify-between bg-gray-100 p-4'>
+    <footer className='flex justify-between p-4'>
       <span className='flex icons'>
         <div className='has-tooltip'>
           <span className='tooltip rounded shadow-lg p-1 bg-gray-100 text-primary -mt-8'>
@@ -94,7 +94,7 @@ export default function Footer() {
           </a>
         </div>
       </span>
-      <span className='text-gray-500'>
+      <span className='text-gray-700'>
         &#169; Copyright 1999-{year} jasonleewilson.com
       </span>
     </footer>
