@@ -30,10 +30,11 @@ export default function test1() {
 
             <form
               name='contact'
-              action='/thankyou'
+              //   action='/thankyou'
+              action='https://formspree.io/f/mzbnjwlg'
               method='post'
               className='mx-auto mb-0 mt-8 max-w-md space-y-4'
-              data-netlify='true'
+              //   data-netlify='true'
             >
               <input type='hidden' name='form-name' value='contact' />
               <div>
