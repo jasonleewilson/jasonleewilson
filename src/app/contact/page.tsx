@@ -27,16 +27,17 @@ export default function Contact() {
           <div className='col-span-2 row-span-3'>
             <form
               name='contactjasonleewilson'
-              action='/thankyou'
+              // action='/thankyou'
+              action='https://formspree.io/f/mzbnjwlg'
               method='POST'
               className='mt-10'
-              data-netlify='true'
+              // data-netlify='true'
             >
-              <input
+              {/* <input
                 type='hidden'
                 name='form-name'
                 value='contactjasonleewilson'
-              />
+              /> */}
               <div className='grid gap-6 sm:grid-cols-2'>
                 <div className='relative z-0'>
                   <input
