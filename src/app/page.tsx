@@ -51,7 +51,7 @@ export default function Home() {
                 className='block w-full rounded px-12 py-3 text-sm uppercase font-normal text-primary shadow hover:text-primary focus:outline-none focus:ring active:text-primary sm:w-auto'
                 href='/about'
               >
-                Learn More
+                About me
               </Link>
             </div>
             <Icons />
