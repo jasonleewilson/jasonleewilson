@@ -1,1 +1,1 @@
-export const disableNavWithFooter = ["/", "/work"];
+export const disableNavWithFooter = ["/", "/work", "/contact"];
