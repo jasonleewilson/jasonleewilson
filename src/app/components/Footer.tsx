@@ -17,7 +17,10 @@ export default function Footer() {
   const year = date.getFullYear();
   return (
     <footer>
-      <div className='sm:block lg:hidden w-full text-center'>
+      <div
+        id='footer-mobile-menu'
+        className='sm:block lg:hidden w-full text-center'
+      >
         <ul className='mt-4'>
           <li className='py-4 w-full hover:bg-gray-200'>
             <Link href='/'>
