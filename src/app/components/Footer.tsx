@@ -1,6 +1,10 @@
+"use client";
 import Link from "next/link";
 import Image from "next/image";
 // import styles from "../styles/Footer.module.scss";
+
+import { usePathname } from "next/navigation";
+import { disableNavWithFooter } from "../utils/disableNavWithFooter";
 
 import {
   SiLinkedin,
@@ -15,48 +19,52 @@ import {
 export default function Footer() {
   const date = new Date();
   const year = date.getFullYear();
+  const path = usePathname();
+
   return (
     <footer>
-      <div
-        id='footer-mobile-menu'
-        className='sm:block lg:hidden w-full text-center'
-      >
-        <ul className='mt-4'>
-          <li className='py-4 w-full hover:bg-gray-200'>
-            <Link href='/'>
-              <p>Home</p>
-            </Link>
-          </li>
-          <li className='py-4 w-full hover:bg-gray-200'>
-            <Link href='/about'>
-              <p>About</p>
-            </Link>
-          </li>
-          <li className='py-4 w-full hover:bg-gray-200'>
-            <Link href='/work'>
-              <p>Work</p>
-            </Link>
-          </li>
+      {!disableNavWithFooter.includes(path) && (
+        <div
+          id='footer-mobile-menu'
+          className='sm:block lg:hidden w-full text-center'
+        >
+          <ul className='mt-4'>
+            <li className='py-4 w-full hover:bg-gray-200'>
+              <Link href='/'>
+                <p>Home</p>
+              </Link>
+            </li>
+            <li className='py-4 w-full hover:bg-gray-200'>
+              <Link href='/about'>
+                <p>About</p>
+              </Link>
+            </li>
+            <li className='py-4 w-full hover:bg-gray-200'>
+              <Link href='/work'>
+                <p>Work</p>
+              </Link>
+            </li>
 
-          <li className='py-4 w-full hover:bg-gray-200'>
-            <Link href='/skills'>
-              <p>Skills</p>
-            </Link>
-          </li>
+            <li className='py-4 w-full hover:bg-gray-200'>
+              <Link href='/skills'>
+                <p>Skills</p>
+              </Link>
+            </li>
 
-          <li className='py-4 w-full hover:bg-gray-200'>
-            <Link href='/faq'>
-              <p>FAQ</p>
-            </Link>
-          </li>
+            <li className='py-4 w-full hover:bg-gray-200'>
+              <Link href='/faq'>
+                <p>FAQ</p>
+              </Link>
+            </li>
 
-          <li className='py-4 w-full hover:bg-gray-200'>
-            <Link href='/contact'>
-              <p>Contact</p>
-            </Link>
-          </li>
-        </ul>
-      </div>
+            <li className='py-4 w-full hover:bg-gray-200'>
+              <Link href='/contact'>
+                <p>Contact</p>
+              </Link>
+            </li>
+          </ul>
+        </div>
+      )}
       <div className='grid sm:grid-cols-1 md:grid-cols-2 item-center justify-center p-4'>
         <div className='flex flex-row justify-evenly sm:justify-center md:justify-start icons mb-4 md:mb-0'>
           <div className='has-tooltip'>
