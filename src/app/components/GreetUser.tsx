@@ -9,7 +9,7 @@ console.log(
 console.log(message);
 
 function GreetUser() {
-  return <div>greetUser()</div>;
+  return null;
 }
 
 export default GreetUser;

@@ -4,7 +4,7 @@ import { GoogleTagManager } from "@next/third-parties/google";
 import "./globals.css";
 import Navbar from "../app/components/Navbar";
 import Footer from "../app/components/Footer";
-import GreetUser from "../app/components/GreetUser";
+import GreetUser from "@/app/components/GreetUser";
 
 const myFont = Oswald({
   subsets: ["latin"],
