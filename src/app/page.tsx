@@ -5,7 +5,8 @@ import Icons from "./components/Icons";
 
 export const metadata: Metadata = {
   title: "jasonleewilson.com",
-  description: "Super cool web engineer / developer",
+  description:
+    "Super cool web engineer / developer. I offer a complete solution ranging from website creation, design and maintenance for internet-based clients worldwide.",
 };
 
 import {

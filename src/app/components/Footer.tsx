@@ -144,7 +144,9 @@ export default function Footer() {
           </div>
         </div>
         <div className='md:text-right text-gray-700'>
-          &#169; Copyright 1999-{year} jasonleewilson.com
+          <Link href='/privacy'>Privacy Policy</Link>&nbsp;&nbsp; &#169;
+          Copyright 1999-
+          {year} jasonleewilson.com
         </div>
       </div>
     </footer>

@@ -18,7 +18,8 @@ export const metadata: Metadata = {
     default: "jasonleewilson.com",
     template: "%s - jasonleewilson.com",
   },
-  description: "Super cool web engineer / developer",
+  description:
+    "Super cool web engineer / developer.  I offer a complete solution ranging from website creation, design and maintenance for internet-based clients worldwide.",
   openGraph: {
     images: "/opengraph-image.png",
   },
