@@ -174,6 +174,18 @@ a.flipanimate:hover span:before, a.flipanimate:focus span:before {
   color: #fff;
 }
 
+@media (max-width: 450px) {
+  .menu-link-item-holder a {
+    color: #fff;
+    font-size: 50px;
+  }
+
+  .menu-link-item-holder a:hover {
+    color: #fff;
+    font-size: 50px;
+  }
+}
+
 /* @media (max-width: 900px) {
   .menu-close-icon {
     display: none;
