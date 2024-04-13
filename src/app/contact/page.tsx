@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function Contact() {
   return (
     <>
-      <main className='flex-grow w-full mx-auto mt-20 px-4 lg:px-4'>
+      <main className='flex-grow w-full mx-auto px-4 lg:px-4'>
         <h1 className='text-4xl font-medium text-right mr-2 mb-4 uppercase'>
           Contact
         </h1>

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function Faq() {
   return (
     <>
-      <main className='flex-grow container-fluid mt-20 px-4 lg:px-4'>
+      <main className='flex-grow container-fluid px-4 lg:px-4'>
         <h1 className='text-4xl font-medium text-right mr-2 mb-4 uppercase'>
           FAQ
         </h1>

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Oswald } from "next/font/google";
 import { GoogleTagManager } from "@next/third-parties/google";
 import "./globals.css";
-import Navbar from "../app/components/Navbar";
+import Navbar from "../app/components/Navbar.js";
 import Footer from "../app/components/Footer";
 import GreetUser from "@/app/components/GreetUser";
 
