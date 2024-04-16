@@ -11,9 +11,7 @@ export default function Contact() {
   return (
     <>
       <main className='flex-grow w-full mx-auto px-4 lg:px-4'>
-        <h1 className='text-4xl font-medium text-right mr-2 mb-4 uppercase'>
-          Contact
-        </h1>
+        <h1 className=''>Contact</h1>
         <div className='grid sm:grid-cols-1 sm:grid-rows-1 lg:grid-cols-3 lg:grid-rows-5 gap-4 w-full'>
           <div className='row-span-3'>
             <h1 className='text-2xl font-medium'>jasonleewilson</h1>

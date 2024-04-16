@@ -9,22 +9,12 @@ export const metadata: Metadata = {
     "Super cool web engineer / developer. I offer a complete solution ranging from website creation, design and maintenance for internet-based clients worldwide.",
 };
 
-import {
-  SiTailwindcss,
-  SiHtml5,
-  SiSass,
-  SiCss3,
-  SiJavascript,
-  SiReact,
-  SiFigma,
-  SiNextdotjs,
-  SiNetlify,
-} from "react-icons/si";
+import { RiArrowRightUpLine } from "react-icons/ri";
 
 export default function Home() {
   return (
-    <main className='flex-grow container-fluid bg-gray-100 mt-20 :px-4 lg:px-4'>
-      <section className='bg-gray-100 grid h-full place-items-center'>
+    <main className='flex-grow container-fluid mt-20 :px-4 lg:px-4'>
+      <section className=' grid h-full place-items-center'>
         <div className='mx-auto max-w-screen-xl px-4'>
           <div className='mx-auto max-w-xl text-center'>
             <h1 className='text-3xl font-extrabold sm:text-5xl'>
@@ -42,17 +32,17 @@ export default function Home() {
 
             <div className='mt-8 flex flex-wrap justify-center gap-4'>
               <Link
-                className='block w-full rounded bg-primary px-12 py-3 text-sm uppercase font-normal text-white shadow hover:bg-primary focus:outline-none focus:ring active:bg-primary sm:w-auto'
+                className='block w-full rounded bg-primary hover:bg-transparent hover:text-primary hover:outline hover:outline-2 hover:outline-primary px-12 py-3 text-sm uppercase font-normal text-white focus:outline-none focus:ring active:bg-primary sm:w-auto'
                 href='/work'
               >
-                View my work
+                View my work <RiArrowRightUpLine className='inline' />
               </Link>
 
               <Link
-                className='block w-full rounded px-12 py-3 text-sm uppercase font-normal text-primary shadow hover:text-primary focus:outline-none focus:ring active:text-primary sm:w-auto'
+                className='block w-full rounded px-12 py-3 text-sm uppercase font-normal text-primary outline outline-2 outline-primary hover:text-primary focus:outline-2 focus:ring active:text-primary sm:w-auto'
                 href='/about'
               >
-                About me
+                About me <RiArrowRightUpLine className='inline' />
               </Link>
             </div>
             <Icons />

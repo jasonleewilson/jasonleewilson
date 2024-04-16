@@ -12,11 +12,9 @@ export default function Faq() {
   return (
     <>
       <main className='flex-grow container-fluid px-4 lg:px-4'>
-        <h1 className='text-4xl font-medium text-right mr-2 mb-4 uppercase'>
-          FAQ
-        </h1>
+        <h1 className='text-4xl font-medium text-right mb-4 uppercase'>FAQ</h1>
 
-        <section className='bg-gray-100 text-gray-800'>
+        <section className='text-gray-800'>
           <div className='container flex flex-col justify-center p-4 mx-auto md:p-8 text-2xl'>
             {/* <p className='p-2 text-xl font-medium tracking-wider text-center uppercase'>
               How it works

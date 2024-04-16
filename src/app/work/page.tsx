@@ -107,9 +107,7 @@ export default function Work() {
   return (
     <main className='flex-grow container-fluid px-4 lg:px-4'>
       <div>
-        <h1 className='text-4xl font-medium text-right mr-2 mb-4 uppercase'>
-          Work
-        </h1>
+        <h1 className='text-4xl font-medium text-right mb-4 uppercase'>Work</h1>
         <div className='grid sm:grid-cols-1 sm:grid-rows-1 md:grid-cols-2 md:grid-rows-2 lg:grid-cols-3 lg:grid-rows-2 gap-4'>
           {portfolioItems.map((portfolioItem) => (
             <Card

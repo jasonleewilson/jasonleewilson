@@ -13,7 +13,7 @@ export default function Skills() {
   return (
     <>
       <main className='flex-grow container-fluid px-4 lg:px-4'>
-        <h1 className='text-4xl font-medium text-right mr-2 mb-4 uppercase'>
+        <h1 className='text-4xl font-medium text-right mb-4 uppercase'>
           Skills
         </h1>
         {/* <div className='grid grid-cols-2 grid-rows-3 md:grid-rows-4 md:grid-cols-4 gap-2 md:gap-4 h-screen'>

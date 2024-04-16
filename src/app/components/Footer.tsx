@@ -107,7 +107,7 @@ export default function Footer() {
               Pinterest
             </span>
             <a
-              href='https://www.pinterest.com/jasonleewilson/'
+              href='https://www.pinterest.com/jasonleewilson/_saved/'
               target='_blank'
               rel='noopener noreferrer'
               aria-label='pinterest'

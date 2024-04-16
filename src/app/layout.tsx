@@ -34,12 +34,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='en' className='bg-gray-100'>
+    <html lang='en' className=''>
       <GoogleTagManager gtmId='GTM-N6T8XD' />
       {/* <body className='flex flex-col h-screen bg-gray-50'> */}
 
       <body className={myFont.className}>
-        <div className='flex flex-col h-screen bg-gray-100'>
+        <div className='flex flex-col h-screen '>
           <Navbar />
           {children}
           <Footer />

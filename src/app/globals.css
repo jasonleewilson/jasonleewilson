@@ -20,11 +20,35 @@ html {
 
 }
 
+/* BACKGROUND ANIMATION */
+/* body {
+  height: 100vh;
+  width: 100%;
+  
+  background: radial-gradient(circle, #ffffff, #dddddd, #c5c5c5, #ffffff);
+  background-size: 600% 600%;
+  animation: color 12s ease-in-out infinite;
+}
+
+@keyframes color {
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  0%{
+    background-position: 0 50%;
+  }
+} */
+
+/* TEXT SELECT */
 ::selection {
   background: var(--primary-color);
   color: #fff;
 }
 
+/* TOOLTIPS */
 .tooltip {
   @apply invisible absolute;
 }
@@ -42,7 +66,7 @@ html {
   top: 0;
   left: 0;
   width: 100vw;
-  padding: 2em;
+  padding: 1em;
   /* display: flex; */
   justify-content: space-between;
   align-items: center;
@@ -173,6 +197,10 @@ a.flipanimate:hover span, a.flipanimate:focus span {
 a.flipanimate:hover span:before, a.flipanimate:focus span:before {
   color: #fff;
 }
+
+/* DESKTOP EDITS FLIP LINK */
+nav a.flipanimate:hover span:before, nav a.flipanimate:focus span:before {color: var(--primary-color);}
+nav .grid.no-underline.uppercase.hover\:text-white.duration-300.py-2.border-primary.text-white.text-center {color: var(--primary-color);}
 
 @media (max-width: 450px) {
   .menu-link-item-holder a {

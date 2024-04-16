@@ -88,7 +88,168 @@ const Navbar = () => {
             </Link>
           </div>
 
-          <div className='menu-open' onClick={toggleMenu}>
+          <nav className='hidden lg:block'>
+            <ul className='flex flex-wrap items-center justify-center'>
+              <li className='mx-4'>
+                <div
+                  className={
+                    toggleMenu === false
+                      ? styles.navmenu
+                      : styles.navmenu + " " + styles.active
+                  }
+                >
+                  <Link href='/' className='flipanimate'>
+                    <p
+                      className={
+                        (toggleMenu === false
+                          ? styles.navlink
+                          : styles.navlink + " " + styles.active,
+                        currentRoute === "/" ? activeStyle : nonActiveStyle)
+                      }
+                    >
+                      <span className='text-black' data-hover='Home'>
+                        Home
+                      </span>
+                    </p>
+                  </Link>
+                </div>
+              </li>
+
+              <li className='mx-4'>
+                <div
+                  className={
+                    toggleMenu === false
+                      ? styles.navmenu
+                      : styles.navmenu + " " + styles.active
+                  }
+                >
+                  <Link href='/about' className='flipanimate'>
+                    <p
+                      className={
+                        (toggleMenu === false
+                          ? styles.navlink
+                          : styles.navlink + " " + styles.active,
+                        currentRoute === "/about"
+                          ? activeStyle
+                          : nonActiveStyle)
+                      }
+                    >
+                      <span className='text-black' data-hover='About'>
+                        About
+                      </span>
+                    </p>
+                  </Link>
+                </div>
+              </li>
+
+              <li className='mx-4'>
+                <div
+                  className={
+                    toggleMenu === false
+                      ? styles.navmenu
+                      : styles.navmenu + " " + styles.active
+                  }
+                >
+                  <Link href='/skills' className='flipanimate'>
+                    <p
+                      className={
+                        (toggleMenu === false
+                          ? styles.navlink
+                          : styles.navlink + " " + styles.active,
+                        currentRoute === "/skills"
+                          ? activeStyle
+                          : nonActiveStyle)
+                      }
+                    >
+                      <span className='text-black' data-hover='Skills'>
+                        Skills
+                      </span>
+                    </p>
+                  </Link>
+                </div>
+              </li>
+
+              <li className='mx-4'>
+                <div
+                  className={
+                    toggleMenu === false
+                      ? styles.navmenu
+                      : styles.navmenu + " " + styles.active
+                  }
+                >
+                  <Link href='/work' className='flipanimate'>
+                    <p
+                      className={
+                        (toggleMenu === false
+                          ? styles.navlink
+                          : styles.navlink + " " + styles.active,
+                        currentRoute === "/work" ? activeStyle : nonActiveStyle)
+                      }
+                    >
+                      <span className='text-black' data-hover='Work'>
+                        Work
+                      </span>
+                    </p>
+                  </Link>
+                </div>
+              </li>
+
+              <li className='mx-4'>
+                <div
+                  className={
+                    toggleMenu === false
+                      ? styles.navmenu
+                      : styles.navmenu + " " + styles.active
+                  }
+                >
+                  <Link href='/faq' className='flipanimate'>
+                    <p
+                      className={
+                        (toggleMenu === false
+                          ? styles.navlink
+                          : styles.navlink + " " + styles.active,
+                        currentRoute === "/faq" ? activeStyle : nonActiveStyle)
+                      }
+                    >
+                      <span className='text-black' data-hover='FAQ'>
+                        FAQ
+                      </span>
+                    </p>
+                  </Link>
+                </div>
+              </li>
+
+              <li className='mx-4'>
+                <div
+                  className={
+                    toggleMenu === false
+                      ? styles.navmenu
+                      : styles.navmenu + " " + styles.active
+                  }
+                >
+                  <Link href='/contact' className='flipanimate'>
+                    <p
+                      className={
+                        (toggleMenu === false
+                          ? styles.navlink
+                          : styles.navlink + " " + styles.active,
+                        currentRoute === "/contact"
+                          ? activeStyle
+                          : nonActiveStyle)
+                      }
+                    >
+                      <span className='text-black' data-hover='Contact'>
+                        Contact
+                      </span>
+                    </p>
+                  </Link>
+                </div>
+              </li>
+            </ul>
+          </nav>
+
+          {/* MOBILE HAMBURGER MENU */}
+          <div className='menu-open lg:hidden' onClick={toggleMenu}>
             <button
               className={
                 toggleMenu === false
@@ -105,10 +266,11 @@ const Navbar = () => {
           </div>
         </div>
 
+        {/* MOBILE MENU */}
         <div className='menu-overlay'>
           <div className='menu-overlay-bar flex justify-between'>
             <div className='menu-logo'>
-              <Link href='/'>jasonleewilson</Link>
+              {/* <Link href='/'>jasonleewilson</Link> */}
             </div>
             <div className='menu-close-icon' onClick={toggleMenu}>
               <p>&#x2715;</p>
