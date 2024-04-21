@@ -77,18 +77,20 @@ const Navbar = () => {
             <Link href='/'>
               <Image
                 src='/logo.svg'
-                alt='Logo'
+                alt='jasonleewilson - Logo'
                 width='0'
                 height='0'
                 sizes='100vw'
                 className='inline-block w-[32px] h-[32px]'
                 priority={true}
               />
-              <p className='inline-block uppercase ml-4'>jasonleewilson</p>
+              <p className='inline-block uppercase ml-4' tabIndex={0}>
+                jasonleewilson
+              </p>
             </Link>
           </div>
 
-          <nav className='hidden lg:block'>
+          <nav className='hidden lg:block' aria-label='Main Navigation'>
             <ul className='flex flex-wrap items-center justify-center'>
               <li className='mx-4'>
                 <div
@@ -107,7 +109,11 @@ const Navbar = () => {
                         currentRoute === "/" ? activeStyle : nonActiveStyle)
                       }
                     >
-                      <span className='text-black' data-hover='Home'>
+                      <span
+                        className='text-black'
+                        data-hover='Home'
+                        tabIndex={0}
+                      >
                         Home
                       </span>
                     </p>
@@ -134,7 +140,11 @@ const Navbar = () => {
                           : nonActiveStyle)
                       }
                     >
-                      <span className='text-black' data-hover='About'>
+                      <span
+                        className='text-black'
+                        data-hover='About'
+                        tabIndex={0}
+                      >
                         About
                       </span>
                     </p>
@@ -161,7 +171,11 @@ const Navbar = () => {
                           : nonActiveStyle)
                       }
                     >
-                      <span className='text-black' data-hover='Skills'>
+                      <span
+                        className='text-black'
+                        data-hover='Skills'
+                        tabIndex={0}
+                      >
                         Skills
                       </span>
                     </p>
@@ -186,7 +200,11 @@ const Navbar = () => {
                         currentRoute === "/work" ? activeStyle : nonActiveStyle)
                       }
                     >
-                      <span className='text-black' data-hover='Work'>
+                      <span
+                        className='text-black'
+                        data-hover='Work'
+                        tabIndex={0}
+                      >
                         Work
                       </span>
                     </p>
@@ -211,7 +229,11 @@ const Navbar = () => {
                         currentRoute === "/faq" ? activeStyle : nonActiveStyle)
                       }
                     >
-                      <span className='text-black' data-hover='FAQ'>
+                      <span
+                        className='text-black'
+                        data-hover='FAQ'
+                        tabIndex={0}
+                      >
                         FAQ
                       </span>
                     </p>
@@ -238,7 +260,11 @@ const Navbar = () => {
                           : nonActiveStyle)
                       }
                     >
-                      <span className='text-black' data-hover='Contact'>
+                      <span
+                        className='text-black'
+                        data-hover='Contact'
+                        tabIndex={0}
+                      >
                         Contact
                       </span>
                     </p>

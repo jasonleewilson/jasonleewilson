@@ -50,8 +50,8 @@ export default function Skills() {
                 server-side development.
               </li>
               <li className='pb-4'>
-                Python, Ruby, or PHP: Depending on the project requirements and
-                backend technology stack.
+                PHP: Depending on the project requirements and backend
+                technology stack.
               </li>
               <li className='pb-4'>
                 TypeScript: Growing in popularity due to its static typing
@@ -73,8 +73,7 @@ export default function Skills() {
                 scalable network applications.
               </li>
               <li className='pb-4'>
-                Express.js, Flask, or Django: Backend frameworks for building
-                web applications and APIs.
+                Backend frameworks for building web applications and APIs.
               </li>
             </ul>
           </div>
@@ -89,7 +88,7 @@ export default function Skills() {
               </li>
               <li className='pb-4'>
                 Understanding of responsive design principles and frameworks
-                like Bootstrap, TailwindCSS or Foundation.
+                like Bootstrap, Foundation or TailwindCSS.
               </li>
             </ul>
           </div>
@@ -104,7 +103,7 @@ export default function Skills() {
               </li>
             </ul>
           </div>
-          <div className='border border-primary p-4'>
+          {/* <div className='border border-primary p-4'>
             <span className='font-bold mb-4 p-2 bg-primary text-white block text-center'>
               Database Management
             </span>
@@ -118,15 +117,13 @@ export default function Skills() {
                 storage.
               </li>
             </ul>
-          </div>
+          </div> */}
           <div className='border border-primary p-4'>
             <span className='font-bold mb-4 p-2 bg-primary text-white block text-center'>
               API Integration
             </span>
             <ul className='list-disc ml-6'>
-              <li className='pb-4'>
-                Understanding of RESTful and GraphQL APIs.
-              </li>
+              <li className='pb-4'>Understanding of RESTful APIs.</li>
               <li className='pb-4'>
                 Experience with consuming and integrating third-party APIs
                 (e.g., Google Maps API, Twitter API).
@@ -145,10 +142,10 @@ export default function Skills() {
               <li className='pb-4'>
                 Knowledge of HTTPS, CORS, and security headers.
               </li>
-              <li className='pb-4'>
+              {/* <li className='pb-4'>
                 Experience with authentication and authorization mechanisms like
                 JWT or OAuth.
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className='border border-primary p-4'>
@@ -171,12 +168,12 @@ export default function Skills() {
               Testing and Debugging
             </span>
             <ul className='list-disc ml-6'>
-              <li className='pb-4'>
+              {/* <li className='pb-4'>
                 Unit testing with frameworks like Jest, Mocha, or Jasmine.
               </li>
               <li className='pb-4'>
                 End-to-end testing using tools like Selenium or Cypress.
-              </li>
+              </li> */}
               <li className='pb-4'>
                 Familiarity with debugging tools in browsers and development
                 environments.
@@ -189,8 +186,8 @@ export default function Skills() {
             </span>
             <ul className='list-disc ml-6'>
               <li className='pb-4'>
-                Experience with CI/CD pipelines using tools like Jenkins, Travis
-                CI, GitHub CI/CD or GitLab CI.
+                Experience with CI/CD pipelines using tools like GitHub or
+                GitLab CI/CD.
               </li>
               <li className='pb-4'>
                 Automating deployment processes and maintaining build pipelines.
@@ -222,7 +219,7 @@ export default function Skills() {
             <ul className='list-disc ml-6'>
               <li className='pb-4'>
                 Awareness of emerging trends such as Progressive Web Apps
-                (PWAs), WebAssembly, and serverless architecture.
+                (PWAs), and serverless architecture.
               </li>
               <li className='pb-4'>
                 Ability to learn and adapt to new technologies and paradigms in

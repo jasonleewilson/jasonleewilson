@@ -77,7 +77,7 @@ export default function Footer() {
               rel='noopener noreferrer'
               aria-label='linkedin'
             >
-              <SiLinkedin className='linkedin' title='linkedin' />
+              <SiLinkedin className='linkedin' title='linkedin' tabIndex={0} />
             </a>
           </div>
           <div className='has-tooltip'>
@@ -90,7 +90,7 @@ export default function Footer() {
               rel='noopener noreferrer'
               aria-label='twitter'
             >
-              <SiX className='twitter' title='twitter' />
+              <SiX className='twitter' title='twitter' tabIndex={0} />
             </a>
           </div>
 
@@ -112,7 +112,11 @@ export default function Footer() {
               rel='noopener noreferrer'
               aria-label='pinterest'
             >
-              <SiPinterest className='pinterest' title='pinterest' />
+              <SiPinterest
+                className='pinterest'
+                title='pinterest'
+                tabIndex={0}
+              />
             </a>
           </div>
 
@@ -126,7 +130,7 @@ export default function Footer() {
               rel='noopener noreferrer'
               aria-label='codepen'
             >
-              <SiCodepen className='codepen' title='codepen' />
+              <SiCodepen className='codepen' title='codepen' tabIndex={0} />
             </a>
           </div>
           <div className='has-tooltip'>
@@ -139,7 +143,7 @@ export default function Footer() {
               rel='noopener noreferrer'
               aria-label='github'
             >
-              <SiGithub className='github' title='github' />
+              <SiGithub className='github' title='github' tabIndex={0} />
             </a>
           </div>
         </div>
