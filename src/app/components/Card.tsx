@@ -66,7 +66,7 @@ const Card: React.FC<CardProps> = ({
               href={siteUrl}
               target='_blank'
               rel='noopener noreferrer'
-              className='block'
+              className='block h-8'
             >
               <FaLink className='inline' /> {siteUrl}
             </a>
@@ -74,7 +74,7 @@ const Card: React.FC<CardProps> = ({
               href={repoUrl}
               target='_blank'
               rel='noopener noreferrer'
-              className='block'
+              className='block h-8'
             >
               <FaGithub className='inline' /> {repoUrl}
             </a>
