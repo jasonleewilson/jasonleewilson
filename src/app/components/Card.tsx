@@ -47,7 +47,7 @@ const Card: React.FC<CardProps> = ({
               />
               <div className='absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 transition duration-500 ease-in-out hover:bg-primary hover:opacity-100'>
                 <div className='flex-row text-center'>
-                  <h1 className='text-gray-50 font-bold text-lg'>{name}</h1>
+                  <h1 className='text-gray-50 text-lg'>{name}</h1>
                   <p className='text-gray-200 font-medium text-sm'>{siteUrl}</p>
                   {/* <small className='text-xs font-light text-gray-300'>
                     {description}
