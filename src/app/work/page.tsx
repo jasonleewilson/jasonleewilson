@@ -21,7 +21,7 @@ export default function Work() {
       description: "Portfolio 1 - description",
       imageUrl: "/images/project-pfchangs.jpg",
       siteUrl: "https://www.pfchangs.com",
-      repoUrl: "Private",
+      repoUrl: "#",
       displayNone: "hidden",
     },
     {
@@ -30,6 +30,7 @@ export default function Work() {
       description: "Portfolio 2 - description",
       imageUrl: "/images/project-luckycatfund.jpg",
       siteUrl: "https://luckycatfund.com",
+      repoUrl: "#",
       displayNone: "hidden",
     },
     {
@@ -38,6 +39,7 @@ export default function Work() {
       description: "Portfolio 3 - description",
       imageUrl: "/images/project-lunar-new-year.jpg",
       siteUrl: "http://lunarnewyear.com",
+      repoUrl: "#",
       displayNone: "hidden",
     },
     {
@@ -46,6 +48,7 @@ export default function Work() {
       description: "Portfolio 4 - description",
       imageUrl: "/images/pagoda-asian-grill.jpg",
       siteUrl: "https://www.pagodaasiangrill.com",
+      repoUrl: "#",
       displayNone: "hidden",
     },
     {
@@ -54,6 +57,7 @@ export default function Work() {
       description: "Portfolio 5 - description",
       imageUrl: "/images/project-eptexas.jpg",
       siteUrl: "https://eptexas.com",
+      repoUrl: "#",
       displayNone: "hidden",
     },
     {
@@ -62,6 +66,7 @@ export default function Work() {
       description: "Portfolio 6 - description",
       imageUrl: "/images/project-pfchangs-gbd.jpg",
       siteUrl: "https://www.pfchangs.com/global",
+      repoUrl: "#",
       displayNone: "hidden",
     },
     {
@@ -71,6 +76,7 @@ export default function Work() {
       imageUrl: "/images/project-bitcoin-current-price.jpg",
       siteUrl: "https://bitcoin-current-price.com",
       repoUrl: "https://github.com/jasonleewilson/bitcoin-current-price",
+      displayNone: "",
     },
     {
       id: 7,
@@ -79,6 +85,7 @@ export default function Work() {
       imageUrl: "/images/project-current-price.jpg",
       siteUrl: "https://www.current-price.com",
       repoUrl: "https://github.com/jasonleewilson/current-price",
+      displayNone: "",
     },
     {
       id: 8,
@@ -87,6 +94,7 @@ export default function Work() {
       imageUrl: "/images/project-helloworldpro.jpg",
       siteUrl: "https://www.helloworldpro.com",
       repoUrl: "https://github.com/jasonleewilson/helloworldpro",
+      displayNone: "",
     },
     {
       id: 9,
@@ -95,6 +103,7 @@ export default function Work() {
       imageUrl: "/images/project-github-jasonleewilson.jpg",
       siteUrl: "https://jasonleewilson.github.io",
       repoUrl: "https://github.com/jasonleewilson/jasonleewilson.github.io",
+      displayNone: "",
     },
     {
       id: 10,
@@ -103,6 +112,7 @@ export default function Work() {
       imageUrl: "/images/project-jasonleewilson.jpg",
       siteUrl: "https://jasonleewilson.com",
       repoUrl: "https://github.com/jasonleewilson/",
+      displayNone: "",
     },
   ];
   return (
