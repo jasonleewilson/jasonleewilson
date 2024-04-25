@@ -22,6 +22,7 @@ export default function Work() {
       imageUrl: "/images/project-pfchangs.jpg",
       siteUrl: "https://www.pfchangs.com",
       repoUrl: "Private",
+      displayNone: "hidden",
     },
     {
       id: 1,
@@ -29,7 +30,7 @@ export default function Work() {
       description: "Portfolio 2 - description",
       imageUrl: "/images/project-luckycatfund.jpg",
       siteUrl: "https://luckycatfund.com",
-      repoUrl: "Private",
+      displayNone: "hidden",
     },
     {
       id: 2,
@@ -37,7 +38,7 @@ export default function Work() {
       description: "Portfolio 3 - description",
       imageUrl: "/images/project-lunar-new-year.jpg",
       siteUrl: "http://lunarnewyear.com",
-      repoUrl: "Private",
+      displayNone: "hidden",
     },
     {
       id: 3,
@@ -45,7 +46,7 @@ export default function Work() {
       description: "Portfolio 4 - description",
       imageUrl: "/images/pagoda-asian-grill.jpg",
       siteUrl: "https://www.pagodaasiangrill.com",
-      repoUrl: "Private",
+      displayNone: "hidden",
     },
     {
       id: 4,
@@ -53,7 +54,7 @@ export default function Work() {
       description: "Portfolio 5 - description",
       imageUrl: "/images/project-eptexas.jpg",
       siteUrl: "https://eptexas.com",
-      repoUrl: "Private",
+      displayNone: "hidden",
     },
     {
       id: 5,
@@ -61,7 +62,7 @@ export default function Work() {
       description: "Portfolio 6 - description",
       imageUrl: "/images/project-pfchangs-gbd.jpg",
       siteUrl: "https://www.pfchangs.com/global",
-      repoUrl: "Private",
+      displayNone: "hidden",
     },
     {
       id: 6,

@@ -10,6 +10,7 @@ interface CardProps {
   imageUrl: string;
   siteUrl: string;
   repoUrl: string;
+  displayNone: string;
 }
 
 const Card: React.FC<CardProps> = ({
@@ -19,6 +20,7 @@ const Card: React.FC<CardProps> = ({
   imageUrl,
   siteUrl,
   repoUrl,
+  displayNone,
 }) => {
   return (
     <>
@@ -70,14 +72,16 @@ const Card: React.FC<CardProps> = ({
             >
               <FaLink className='inline' /> {siteUrl}
             </a>
-            <a
-              href={repoUrl}
-              target='_blank'
-              rel='noopener noreferrer'
-              className='block h-8'
-            >
-              <FaGithub className='inline' /> {repoUrl}
-            </a>
+            <div className={displayNone}>
+              <a
+                href={repoUrl}
+                target='_blank'
+                rel='noopener noreferrer'
+                className='block h-8'
+              >
+                <FaGithub className='inline' /> {repoUrl}
+              </a>
+            </div>
           </div>
         </div>
         {/* <div className='px-6 py-2'>
