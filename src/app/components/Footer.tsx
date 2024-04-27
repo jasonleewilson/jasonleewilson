@@ -1,10 +1,12 @@
 "use client";
 import Link from "next/link";
-import Image from "next/image";
-// import styles from "../styles/Footer.module.scss";
+// import Image from "next/image";
 
 import { usePathname } from "next/navigation";
 import { disableNavWithFooter } from "../utils/disableNavWithFooter";
+
+import dynamic from "next/dynamic";
+const Clock = dynamic(() => import("../components/Clock"), { ssr: false });
 
 import {
   SiLinkedin,
@@ -146,6 +148,7 @@ export default function Footer() {
               <SiGithub className='github' title='github' tabIndex={0} />
             </a>
           </div>
+          <Clock />
         </div>
         <div className='md:text-right text-gray-700'>
           <Link href='/privacy'>Privacy Policy</Link>&nbsp;&nbsp; &#169;

@@ -51,17 +51,17 @@ export default function Work() {
       repoUrl: "#",
       displayNone: "hidden",
     },
+    // {
+    //   id: 4,
+    //   name: "EPTex",
+    //   description: "Portfolio 5 - description",
+    //   imageUrl: "/images/project-eptexas.jpg",
+    //   siteUrl: "https://eptexas.com",
+    //   repoUrl: "#",
+    //   displayNone: "hidden",
+    // },
     {
       id: 4,
-      name: "EPTex",
-      description: "Portfolio 5 - description",
-      imageUrl: "/images/project-eptexas.jpg",
-      siteUrl: "https://eptexas.com",
-      repoUrl: "#",
-      displayNone: "hidden",
-    },
-    {
-      id: 5,
       name: "P.F. Chang's - Global",
       description: "Portfolio 6 - description",
       imageUrl: "/images/project-pfchangs-gbd.jpg",
@@ -70,7 +70,7 @@ export default function Work() {
       displayNone: "hidden",
     },
     {
-      id: 6,
+      id: 5,
       name: "Bitcoin Current Price",
       description: "Portfolio 7 - description",
       imageUrl: "/images/project-bitcoin-current-price.jpg",
@@ -79,7 +79,7 @@ export default function Work() {
       displayNone: "",
     },
     {
-      id: 7,
+      id: 6,
       name: "Current Price",
       description: "Portfolio 8 - description",
       imageUrl: "/images/project-current-price.jpg",
@@ -88,7 +88,7 @@ export default function Work() {
       displayNone: "",
     },
     {
-      id: 8,
+      id: 7,
       name: "Hello World Pro",
       description: "Portfolio 9 - description",
       imageUrl: "/images/project-helloworldpro.jpg",
@@ -97,7 +97,7 @@ export default function Work() {
       displayNone: "",
     },
     {
-      id: 9,
+      id: 8,
       name: "Jason Lee Wilson - Github.io",
       description: "Portfolio 10 - description",
       imageUrl: "/images/project-github-jasonleewilson.jpg",
@@ -106,7 +106,7 @@ export default function Work() {
       displayNone: "",
     },
     {
-      id: 10,
+      id: 9,
       name: "Jason Lee Wilson - This website",
       description: "Portfolio 10 - description",
       imageUrl: "/images/project-jasonleewilson.jpg",
@@ -119,7 +119,7 @@ export default function Work() {
     <main className='flex-grow container-fluid px-4 lg:px-4'>
       <div>
         <h1 className='text-4xl font-medium text-right mb-4 uppercase'>Work</h1>
-        <div className='grid sm:grid-cols-1 sm:grid-rows-1 md:grid-cols-2 md:grid-rows-2 lg:grid-cols-3 lg:grid-rows-2 gap-4'>
+        <div className='grid sm:grid-cols-1 sm:grid-rows-1 md:grid-cols-2 md:grid-rows-2 gap-4'>
           {portfolioItems.map((portfolioItem) => (
             <Card
               key={"${portfolioItem.name}-${portfolioItem.id}"}
