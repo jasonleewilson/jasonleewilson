@@ -11,11 +11,11 @@ export const metadata: Metadata = {
 export default function About() {
   return (
     <>
-      <main className='flex-grow container-fluid px-4 lg:px-4'>
+      <main className='flex-grow container-fluid px-4 lg:px-4 mt-16 md:mt-20'>
         <h1 className='text-4xl font-medium text-right mb-4 uppercase'>
           about
         </h1>
-
+        <hr className='border border-primary mb-4' />
         <section className='text-gray-800'>
           <div className='container flex flex-col justify-center mx-auto text-2xl'>
             <p className='p-2'>

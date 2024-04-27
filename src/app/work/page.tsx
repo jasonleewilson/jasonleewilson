@@ -116,9 +116,10 @@ export default function Work() {
     },
   ];
   return (
-    <main className='flex-grow container-fluid px-4 lg:px-4'>
+    <main className='flex-grow container-fluid px-4 lg:px-4 mt-16 md:mt-20'>
       <div>
         <h1 className='text-4xl font-medium text-right mb-4 uppercase'>Work</h1>
+        <hr className='border border-primary mb-4' />
         <div className='grid sm:grid-cols-1 sm:grid-rows-1 md:grid-cols-2 md:grid-rows-2 gap-4'>
           {portfolioItems.map((portfolioItem) => (
             <Card
@@ -133,6 +134,7 @@ export default function Work() {
           <h1 className='text-3xl font-semibold text-center lg:text-left'>
             View my skills
           </h1>
+
           <Link
             href='/skills'
             className='px-8 py-3 text-lg font-semibold rounded dark:bg-primary dark:text-gray-50'

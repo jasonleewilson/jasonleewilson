@@ -71,7 +71,10 @@ const Navbar = () => {
 
   return (
     <>
-      <div className='menu-container' ref={container}>
+      <div
+        className='menu-container bg-white fixed top-0 w-full shadow-sm z-10'
+        ref={container}
+      >
         <div className='menu-bar flex justify-between'>
           <div className='logo'>
             <Link href='/'>

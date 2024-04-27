@@ -12,10 +12,11 @@ export const metadata: Metadata = {
 export default function Skills() {
   return (
     <>
-      <main className='flex-grow container-fluid px-4 lg:px-4'>
+      <main className='flex-grow container-fluid px-4 lg:px-4 mt-16 md:mt-20'>
         <h1 className='text-4xl font-medium text-right mb-4 uppercase'>
           Skills
         </h1>
+        <hr className='border border-primary mb-4' />
         {/* <div className='grid grid-cols-2 grid-rows-3 md:grid-rows-4 md:grid-cols-4 gap-2 md:gap-4 h-screen'>
           <div className='bg-indigo-100 col-span-1 md:col-span-2'>
             <span>01</span>
