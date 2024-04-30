@@ -30,8 +30,8 @@ export default function Contact() {
               name='contactjasonleewilson'
               method='POST'
               action='/thankyou'
-              // action='https://formspree.io/f/mzbnjwlg'
               className='mt-10'
+              netlify-honeypot='bot-field'
               data-netlify='true'
             >
               <input
@@ -39,6 +39,14 @@ export default function Contact() {
                 name='form-name'
                 value='contactjasonleewilson'
               />
+
+              <p class='hidden'>
+                <label>
+                  Don’t fill this out if you’re human:{" "}
+                  <input name='bot-field' />
+                </label>
+              </p>
+
               <div className='grid gap-6 sm:grid-cols-2'>
                 <div className='relative z-0'>
                   <input
