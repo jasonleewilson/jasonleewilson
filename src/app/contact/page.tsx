@@ -40,9 +40,9 @@ export default function Contact() {
                 value='contactjasonleewilson'
               />
 
-              <p class='hidden'>
+              <p className='hidden'>
                 <label>
-                  Don’t fill this out if you’re human:{" "}
+                  Don&lsquo;t fill this out if you&lsquo;re human:{" "}
                   <input name='bot-field' />
                 </label>
               </p>
