@@ -87,8 +87,9 @@ export default function About() {
                   I&rsquo;m Jason Lee Wilson, a seasoned Front-End Developer and
                   Web Designer with 25 years of industry experience. Born and
                   raised in Texas, I currently reside just North of Dallas. My
-                  journey began with a Bachelor&rsquo;s degree in Game Design
-                  from Collins College, setting the stage for a dynamic career
+                  journey began at the age of 4 with the Commodore 64, and
+                  continued with a Bachelor&rsquo;s degree in Game Design from
+                  Collins College, setting the stage for a dynamic career
                   trajectory.
                 </p>
 
@@ -138,8 +139,7 @@ export default function About() {
 
                 <p className='p-2'>
                   With an unwavering commitment to excellence, I stand ready to
-                  bring your digital vision to life. Let&rsquo;s collaborate and
-                  embark on a journey towards online success.
+                  bring your digital vision to life.
                 </p>
 
                 <p className='p-2'>
@@ -151,12 +151,11 @@ export default function About() {
                   innovation to every project. From sleek designs that captivate
                   audiences to robust backend solutions that ensure seamless
                   functionality, my expertise covers every aspect of web
-                  development. Let&rsquo;s collaborate to bring your vision to
-                  life and create an online experience that exceeds
-                  expectations. With my extensive industry experience, your
+                  development. With my extensive industry experience, your
                   website will not only stand out but also drive conversions and
-                  propel your business forward. Let&rsquo;s embark on this
-                  journey together and revolutionize your digital footprint.
+                  propel your business forward. Let&rsquo;s collaborate to bring
+                  your vision to life and create an online experience that
+                  exceeds expectations.
                 </p>
 
                 <p className='p-2'>Warm regards, Jason Lee Wilson</p>
