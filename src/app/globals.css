@@ -202,6 +202,31 @@ a.flipanimate:hover span:before, a.flipanimate:focus span:before {
 nav a.flipanimate:hover span:before, nav a.flipanimate:focus span:before {color: var(--primary-color);}
 nav .grid.no-underline.uppercase.hover\:text-white.duration-300.py-2.border-primary.text-white.text-center {color: var(--primary-color);}
 
+
+/* SCROLL BAR */
+/* Let's get this party started */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: var(--primary-color); 
+  -webkit-box-shadow: inset 0 0 6px var(--primary-color); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+background: var(--primary-color); 
+}
+
 @media (max-width: 450px) {
   .menu-link-item-holder a {
     color: #fff;

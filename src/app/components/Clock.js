@@ -32,7 +32,7 @@ function Clock() {
   //   const milli = time.getMilliseconds();
 
   return (
-    <div className='flex pl-4'>
+    <div className='flex pl-4 uppercase'>
       <div id='mon'>{mo}&nbsp;</div>
       <div id='d'>{dy}&nbsp;</div>
       <div id='y'>{yr}&nbsp;</div>

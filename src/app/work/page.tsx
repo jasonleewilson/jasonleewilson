@@ -129,15 +129,13 @@ export default function Work() {
           ))}
         </div>
       </div>
-      <section className='py-6'>
+      <section className='w-1/3 mx-auto py-6'>
         <div className='container mx-auto flex flex-col items-center justify-center p-4 space-y-8 md:p-10 lg:space-y-0 lg:flex-row lg:justify-between'>
-          <h1 className='text-3xl font-semibold text-center lg:text-left'>
-            View my skills
-          </h1>
+          <h1 className='text-3xl text-center lg:text-left'>View my skills</h1>
 
           <Link
             href='/skills'
-            className='px-8 py-3 text-lg font-semibold rounded dark:bg-primary dark:text-gray-50'
+            className='px-8 py-3 text-lg rounded dark:bg-primary dark:text-gray-50'
           >
             Skills
           </Link>

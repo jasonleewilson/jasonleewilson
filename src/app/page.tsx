@@ -17,15 +17,15 @@ export default function Home() {
       <section className=' grid h-full place-items-center'>
         <div className='mx-auto max-w-screen-xl px-2'>
           <div className='mx-auto max-w-xl text-center'>
-            <h1 className='text-4xl md:text-4xl font-extrabold'>
+            <h1 className='text-4xl md:text-4xl font-medium'>
               jasonleewilson.
-              <strong className='font-extrabold text-primary sm:block '>
+              <strong className='font-medium text-primary sm:block '>
                 {" "}
                 Senior Frontend Engineer.{" "}
               </strong>
             </h1>
 
-            <h2 className='mt-4 leading-6 text-xl/relaxed md:text-2xl'>
+            <h2 className='mt-4 font-medium leading-6 text-xl/relaxed md:text-2xl'>
               I build pixel-perfect, engaging, and accessible digital
               experiences.
             </h2>

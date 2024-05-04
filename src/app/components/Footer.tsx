@@ -151,11 +151,16 @@ export default function Footer() {
           <Clock />
         </div>
         <div className='md:text-right text-gray-700'>
-          <Link href='/privacy'>Privacy Policy</Link>&nbsp;&nbsp; &#169;
-          Copyright 1999-
-          {year} jasonleewilson.com
+          <Link href='/privacy' className='uppercase'>
+            Privacy Policy
+          </Link>
+          &nbsp;&nbsp; &#169; COPYRIGHT&nbsp;1999-
+          {year}.
         </div>
       </div>
+      {/* <div className='h-[150x] text-[16em] text-gray-200 font-extrabold text-center'>
+        JASONLEEWILSON
+      </div> */}
     </footer>
   );
 }

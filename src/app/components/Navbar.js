@@ -4,6 +4,7 @@ import React, { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
+import { RiArrowRightUpLine } from "react-icons/ri";
 
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
@@ -117,7 +118,7 @@ const Navbar = () => {
                         data-hover='Home'
                         tabIndex={0}
                       >
-                        Home
+                        Home <RiArrowRightUpLine className='inline-block' />
                       </span>
                     </p>
                   </Link>
@@ -148,7 +149,7 @@ const Navbar = () => {
                         data-hover='About'
                         tabIndex={0}
                       >
-                        About
+                        About <RiArrowRightUpLine className='inline-block' />
                       </span>
                     </p>
                   </Link>
@@ -179,7 +180,7 @@ const Navbar = () => {
                         data-hover='Skills'
                         tabIndex={0}
                       >
-                        Skills
+                        Skills <RiArrowRightUpLine className='inline-block' />
                       </span>
                     </p>
                   </Link>
@@ -208,7 +209,7 @@ const Navbar = () => {
                         data-hover='Work'
                         tabIndex={0}
                       >
-                        Work
+                        Work <RiArrowRightUpLine className='inline-block' />
                       </span>
                     </p>
                   </Link>
@@ -237,7 +238,7 @@ const Navbar = () => {
                         data-hover='FAQ'
                         tabIndex={0}
                       >
-                        FAQ
+                        FAQ <RiArrowRightUpLine className='inline-block' />
                       </span>
                     </p>
                   </Link>
@@ -268,7 +269,7 @@ const Navbar = () => {
                         data-hover='Contact'
                         tabIndex={0}
                       >
-                        Contact
+                        Contact <RiArrowRightUpLine className='inline-block' />
                       </span>
                     </p>
                   </Link>
@@ -306,7 +307,7 @@ const Navbar = () => {
             </div>
           </div>
 
-          <div className='menu-copy mx-auto w-1/2'>
+          <div className='menu-copy mx-auto w-full'>
             <div className='menu-links mb-6 text-center '>
               <div className='menu-link-item mx-auto'>
                 <div className='menu-link-item-holder' onClick={toggleMenu}>
