@@ -50,7 +50,7 @@ export default function Icons() {
           <span className='tooltip rounded shadow-lg p-1 bg-gray-100 text-primary -mt-8'>
             react
           </span>
-          <SiReact className='react' title='react' />
+          <SiReact title='react' />
         </div>
         {/* <div className='has-tooltip'>
                 <span className='tooltip rounded shadow-lg p-1 bg-gray-100 text-primary -mt-8'>
@@ -62,13 +62,13 @@ export default function Icons() {
           <span className='tooltip rounded shadow-lg p-1 bg-gray-100 text-primary -mt-8'>
             nextjs
           </span>
-          <SiNextdotjs className='nextjs' title='nextjs' />
+          <SiNextdotjs title='nextjs' />
         </div>
         <div className='has-tooltip'>
           <span className='tooltip rounded shadow-lg p-1 bg-gray-100 text-primary -mt-8'>
             nettlify
           </span>
-          <SiNetlify className='twitter' title='netlify' />
+          <SiNetlify title='netlify' />
         </div>
       </div>
     </div>

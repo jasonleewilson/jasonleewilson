@@ -116,7 +116,7 @@ export default function Work() {
     },
   ];
   return (
-    <main className='flex-grow container-fluid px-4 lg:px-4 mt-16 md:mt-20'>
+    <main className='flex-grow container-fluid px-4 lg:px-4 mt-16 md:mt-20 bg-gray-100 dark:bg-black'>
       <div>
         <h1 className='text-4xl font-medium text-right mb-4 uppercase'>Work</h1>
         <hr className='border border-primary mb-4' />
@@ -129,7 +129,7 @@ export default function Work() {
           ))}
         </div>
       </div>
-      <section className='w-1/3 mx-auto py-6'>
+      <section className='w-full lg:w-1/3 mx-auto py-6'>
         <div className='container mx-auto flex flex-col items-center justify-center p-4 space-y-8 md:p-10 lg:space-y-0 lg:flex-row lg:justify-between'>
           <h1 className='text-3xl text-center lg:text-left'>View my skills</h1>
 

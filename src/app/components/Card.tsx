@@ -26,7 +26,7 @@ const Card: React.FC<CardProps> = ({
     <>
       {/* <Link href={`/work/${name}`}> */}
       <div className='rounded-sm overflow-hidden h-full flex flex-col justify-between'>
-        <div className='shadow'>
+        <div className='shadow rounded-sm border-2 max-w-screen-s max-h-auto'>
           <Link
             href={siteUrl}
             target='_blank'
@@ -59,7 +59,7 @@ const Card: React.FC<CardProps> = ({
             </div>
           </Link>
 
-          <div className='px-6 py-4 border-2 border-t-0'>
+          <div className='px-6 py-4'>
             <div className='text-2xl mb-2 uppercase line-clamp-2'>{name}</div>
             {/* <p className='text-gray-700 text-base truncate uppercase'>
               {description}

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 export default function Skills() {
   return (
     <>
-      <main className='flex-grow container-fluid px-4 lg:px-4 mt-16 md:mt-20'>
+      <main className='flex-grow container-fluid px-4 lg:px-4 mt-16 md:mt-20 bg-gray-100 dark:bg-black'>
         <h1 className='text-4xl font-medium text-right mb-4 uppercase'>
           Skills
         </h1>

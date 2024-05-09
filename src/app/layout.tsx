@@ -5,6 +5,7 @@ import "./globals.css";
 import Navbar from "../app/components/Navbar.js";
 import Footer from "../app/components/Footer";
 import GreetUser from "@/app/components/GreetUser";
+import { Providers } from "./providers";
 
 const myFont = Oswald({
   subsets: ["latin"],
@@ -34,17 +35,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='en' className=''>
+    <html lang='en' suppressHydrationWarning>
       <GoogleTagManager gtmId='GTM-N6T8XD' />
       {/* <body className='flex flex-col h-screen bg-gray-50'> */}
 
       <body className={myFont.className}>
-        <div className='flex flex-col h-screen '>
-          <Navbar />
-          {children}
-          <Footer />
-          <GreetUser />
-        </div>
+        <Providers enableSystem={false}>
+          <div className='flex flex-col h-screen bg-gray-100 dark:bg-black '>
+            <Navbar />
+            {children}
+            <Footer />
+            <GreetUser />
+          </div>
+        </Providers>
       </body>
     </html>
   );

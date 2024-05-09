@@ -5,19 +5,19 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { RiArrowRightUpLine } from "react-icons/ri";
+import ThemeSwitch from "../components/ThemeSwitch";
 
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 // OLD MENU
 
 // styles for all links
-const linkStyle =
-  "grid no-underline uppercase hover:text-white duration-300 py-2";
+const linkStyle = "grid no-underline uppercase duration-300 py-2";
 
 // styles for active and non-active links
-const activeStyle = linkStyle + " border-primary text-white text-center py-2";
+const activeStyle = linkStyle + " border-b border-primary text-center py-2";
 
-const nonActiveStyle = linkStyle + " text-black";
+const nonActiveStyle = linkStyle + " text-center";
 
 // NEW MENU
 // const menuLinks = [
@@ -73,10 +73,10 @@ const Navbar = () => {
   return (
     <>
       <div
-        className='menu-container bg-white fixed top-0 w-full shadow-sm z-10'
+        className='menu-container bg-gray-100 dark:bg-black fixed top-0 w-full shadow-sm z-10'
         ref={container}
       >
-        <div className='menu-bar flex justify-between'>
+        <div className='menu-bar flex justify-end md:justify-between'>
           <div className='logo'>
             <Link href='/'>
               <Image
@@ -96,6 +96,7 @@ const Navbar = () => {
 
           <nav className='hidden lg:block' aria-label='Main Navigation'>
             <ul className='flex flex-wrap items-center justify-center'>
+              <ThemeSwitch className='inline-block' />
               <li className='mx-4'>
                 <div
                   className={
@@ -114,11 +115,11 @@ const Navbar = () => {
                       }
                     >
                       <span
-                        className='text-black'
+                        className='text-center'
                         data-hover='Home'
                         tabIndex={0}
                       >
-                        Home <RiArrowRightUpLine className='inline-block' />
+                        Home
                       </span>
                     </p>
                   </Link>
@@ -145,11 +146,11 @@ const Navbar = () => {
                       }
                     >
                       <span
-                        className='text-black'
+                        className='text-center'
                         data-hover='About'
                         tabIndex={0}
                       >
-                        About <RiArrowRightUpLine className='inline-block' />
+                        About
                       </span>
                     </p>
                   </Link>
@@ -176,11 +177,11 @@ const Navbar = () => {
                       }
                     >
                       <span
-                        className='text-black'
+                        className='text-center'
                         data-hover='Skills'
                         tabIndex={0}
                       >
-                        Skills <RiArrowRightUpLine className='inline-block' />
+                        Skills
                       </span>
                     </p>
                   </Link>
@@ -205,11 +206,11 @@ const Navbar = () => {
                       }
                     >
                       <span
-                        className='text-black'
+                        className='text-center'
                         data-hover='Work'
                         tabIndex={0}
                       >
-                        Work <RiArrowRightUpLine className='inline-block' />
+                        Work
                       </span>
                     </p>
                   </Link>
@@ -234,11 +235,11 @@ const Navbar = () => {
                       }
                     >
                       <span
-                        className='text-black'
+                        className='text-center'
                         data-hover='FAQ'
                         tabIndex={0}
                       >
-                        FAQ <RiArrowRightUpLine className='inline-block' />
+                        FAQ
                       </span>
                     </p>
                   </Link>
@@ -265,11 +266,11 @@ const Navbar = () => {
                       }
                     >
                       <span
-                        className='text-black'
+                        className='text-center'
                         data-hover='Contact'
                         tabIndex={0}
                       >
-                        Contact <RiArrowRightUpLine className='inline-block' />
+                        Contact
                       </span>
                     </p>
                   </Link>
@@ -279,20 +280,27 @@ const Navbar = () => {
           </nav>
 
           {/* MOBILE HAMBURGER MENU */}
-          <div className='menu-open lg:hidden' onClick={toggleMenu}>
-            <button
-              className={
-                toggleMenu === false
-                  ? styles.hamburger
-                  : styles.hamburger + " " + styles.active
-              }
-              onClick={toggleMenu}
-              aria-label='Menu'
-            >
-              <span className={styles.bar}></span>
-              <span className={styles.bar}></span>
-              <span className={styles.bar}></span>
-            </button>
+          <div className='lg:hidden'>
+            <div className='inline-block mx-4 items-center justify-center'>
+              <ThemeSwitch />
+            </div>
+            <div className='menu-open inline-block' onClick={toggleMenu}>
+              <div>
+                <button
+                  className={
+                    toggleMenu === false
+                      ? styles.hamburger
+                      : styles.hamburger + " " + styles.active
+                  }
+                  onClick={toggleMenu}
+                  aria-label='Menu'
+                >
+                  <span className='block h-0.5 w-8 my-1 transition-all ease-in-out duration-300 bg-black dark:bg-white'></span>
+                  <span className='block h-0.5 w-8 my-1 transition-all ease-in-out duration-300 bg-black dark:bg-white'></span>
+                  <span className='block h-0.5 w-8 my-1 transition-all ease-in-out duration-300 bg-black dark:bg-white'></span>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
 

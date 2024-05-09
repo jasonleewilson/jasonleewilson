@@ -16,6 +16,7 @@ import {
   SiPinterest,
   SiCodepen,
   SiX,
+  SiDiscord,
 } from "react-icons/si";
 
 export default function Footer() {
@@ -67,7 +68,7 @@ export default function Footer() {
           </ul>
         </div>
       )}
-      <div className='grid sm:grid-cols-1 md:grid-cols-2 item-center justify-center p-4'>
+      <div className='grid sm:grid-cols-1 md:grid-cols-2 item-center justify-center p-4 bg-gray-100 dark:bg-black text-center'>
         <div className='flex flex-row justify-evenly sm:justify-center md:justify-start icons mb-4 md:mb-0'>
           <div className='has-tooltip'>
             <span className='tooltip rounded shadow-lg p-1 bg-gray-100 text-primary -mt-8'>
@@ -92,7 +93,7 @@ export default function Footer() {
               rel='noopener noreferrer'
               aria-label='twitter'
             >
-              <SiX className='twitter' title='twitter' tabIndex={0} />
+              <SiX title='twitter' tabIndex={0} />
             </a>
           </div>
 
@@ -132,7 +133,7 @@ export default function Footer() {
               rel='noopener noreferrer'
               aria-label='codepen'
             >
-              <SiCodepen className='codepen' title='codepen' tabIndex={0} />
+              <SiCodepen title='codepen' tabIndex={0} />
             </a>
           </div>
           <div className='has-tooltip'>
@@ -145,12 +146,26 @@ export default function Footer() {
               rel='noopener noreferrer'
               aria-label='github'
             >
-              <SiGithub className='github' title='github' tabIndex={0} />
+              <SiGithub title='github' tabIndex={0} />
             </a>
           </div>
+          {/* <div className='has-tooltip'>
+            <span className='tooltip rounded shadow-lg p-1 bg-gray-100 text-primary -mt-8'>
+              Discord
+            </span>
+            <a
+              href='https://discord.gg/ZcwJSDFDUs'
+              target='_blank'
+              rel='noopener noreferrer'
+              aria-label='discord'
+            >
+              <SiDiscord title='discord' tabIndex={0} />
+            </a>
+          </div> */}
+
           <Clock />
         </div>
-        <div className='md:text-right text-gray-700'>
+        <div className='md:text-right text-gray-700 dark:text-white'>
           <Link href='/privacy' className='uppercase'>
             Privacy Policy
           </Link>

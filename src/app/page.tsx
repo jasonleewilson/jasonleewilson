@@ -13,7 +13,7 @@ import { RiArrowRightUpLine } from "react-icons/ri";
 
 export default function Home() {
   return (
-    <main className='flex-grow container-fluid mt-20 lg:px-4'>
+    <main className='flex-grow container-fluid mt-20 lg:px-4 bg-gray-100 dark:bg-black'>
       <section className=' grid h-full place-items-center'>
         <div className='mx-auto max-w-screen-xl px-2'>
           <div className='mx-auto max-w-xl text-center'>

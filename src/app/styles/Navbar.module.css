@@ -22,7 +22,7 @@
   display: none;
 } */
 
-.bar{
+/* .bar{
   display: block;
   width: 35px;
   height: 3px;
@@ -30,7 +30,7 @@
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: #000;
-}
+} */
 
 .navmenu {
   /* display: flex; */

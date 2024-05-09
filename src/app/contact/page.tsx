@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function Contact() {
   return (
     <>
-      <main className='flex-grow container-fluid px-4 lg:px-4 mt-16 md:mt-20'>
+      <main className='flex-grow container-fluid px-4 lg:px-4 mt-16 md:mt-20 bg-gray-100 dark:bg-black'>
         <h1 className='text-4xl font-medium text-right mb-4 uppercase'>
           Contact
         </h1>
@@ -54,13 +54,13 @@ export default function Contact() {
                     name='name'
                     id='name'
                     aria-label='name'
-                    className='peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-primary focus:outline-none focus:ring-0'
+                    className='peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 dark:text-white focus:border-primary focus:outline-none focus:ring-0'
                     placeholder=' '
                     required
                   />
                   <label
                     htmlFor='email'
-                    className='absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-primary peer-focus:dark:text-primary'
+                    className='absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 dark:text-white duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-primary peer-focus:dark:text-primary'
                   >
                     Your name
                   </label>
@@ -71,13 +71,13 @@ export default function Contact() {
                     name='email'
                     id='email'
                     aria-label='email'
-                    className='peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-primary focus:outline-none focus:ring-0'
+                    className='peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 dark:text-white focus:border-primary focus:outline-none focus:ring-0'
                     placeholder=' '
                     required
                   />
                   <label
                     htmlFor='email'
-                    className='absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-primary peer-focus:dark:text-primary'
+                    className='absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 dark:text-white duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-primary peer-focus:dark:text-primary'
                   >
                     Your email
                   </label>
@@ -87,13 +87,13 @@ export default function Contact() {
                     name='message'
                     id='message'
                     aria-label='message'
-                    className='peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-primary focus:outline-none focus:ring-0'
+                    className='peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 dark:text-white focus:border-primary focus:outline-none focus:ring-0'
                     placeholder=' '
                     required
                   ></textarea>
                   <label
                     htmlFor='message'
-                    className='absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-primary peer-focus:dark:text-primary'
+                    className='absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 dark:text-white duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-primary peer-focus:dark:text-primary'
                   >
                     Your message
                   </label>
@@ -101,7 +101,7 @@ export default function Contact() {
               </div>
               <button
                 type='submit'
-                className='mt-5 rounded-md bg-primary px-10 py-2 text-white'
+                className='mt-5 rounded-md bg-primary px-10 py-2 text-white dark:text-white'
                 value='Submit Message'
               >
                 Send Message
