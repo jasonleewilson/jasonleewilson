@@ -116,7 +116,7 @@ export default function Work() {
     },
   ];
   return (
-    <main className='flex-grow container-fluid px-4 lg:px-4 mt-16 md:mt-20 bg-gray-100 dark:bg-black'>
+    <main className='flex-grow container-fluid px-4 lg:px-4 bg-gray-100 dark:bg-black'>
       <div>
         <h1 className='text-4xl font-medium text-right mb-4 uppercase'>Work</h1>
         <hr className='border border-primary mb-4' />
