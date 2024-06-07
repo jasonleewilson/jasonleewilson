@@ -24,6 +24,10 @@ html {
 
 }
 
+.h-screen{
+  height:calc(100vh - 5rem)!important;
+}
+
 /* BACKGROUND ANIMATION */
 /* body {
   height: 100vh;
