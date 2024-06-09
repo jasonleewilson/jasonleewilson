@@ -15,7 +15,8 @@ p a:visited {color: var(--primary-color);}
 a:active {….}  */
 
 html {
-  overflow-y: scroll;
+  /* overflow-y: scroll;
+  overflow: clip; */
   scroll-behavior: smooth;
   scroll-padding-top: 5rem;
   font-family: var(--my-font-family), sans-serif;

@@ -13,8 +13,8 @@ import { RiArrowRightUpLine } from "react-icons/ri";
 
 export default function Home() {
   return (
-    <main className='flex-grow container-fluid mt-20 lg:px-4 bg-gray-100 dark:bg-black'>
-      <section className=' grid h-full place-items-center'>
+    <main className='flex-grow container-fluid mt-20 bg-gray-100 dark:bg-black'>
+      <section className="grid h-full place-items-center bg-[url('/images/me-close.png')] bg-no-repeat bg-cover bg-bottom">
         <div className='mx-auto max-w-screen-xl px-2'>
           <div className='mx-auto max-w-xl text-center'>
             <h1 className='text-4xl md:text-4xl font-medium'>

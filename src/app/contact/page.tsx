@@ -16,7 +16,7 @@ export default function Contact() {
         </h1>
         <hr className='border border-primary mb-8' />
         <div className='grid sm:grid-cols-1 sm:grid-rows-1 lg:grid-cols-3 lg:grid-rows-5 gap-4 w-full'>
-          <div className='row-span-3'>
+          <div className='row-span-3 text-center'>
             <h1 className='text-2xl font-medium'>jasonleewilson</h1>
             <p className='mt-3'>
               Email:{" "}
