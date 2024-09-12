@@ -92,7 +92,7 @@ export default function Work() {
       name: "Hello World Pro",
       description: "Portfolio 9 - description",
       imageUrl: "/images/project-helloworldpro.jpg",
-      siteUrl: "https://www.helloworldpro.com",
+      siteUrl: "https://helloworldpro.com",
       repoUrl: "https://github.com/jasonleewilson/helloworldpro",
       displayNone: "",
     },
