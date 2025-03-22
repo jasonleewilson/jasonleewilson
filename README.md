@@ -35,6 +35,7 @@ Main Skills:
 </p>
 
 Check out my [portfolio site](https://jasonleewilson.com/)
+
 <!-- 
 
 <a href="https://github.com/jasonleewilson/github-readme-stats#gh-light-mode-only">
