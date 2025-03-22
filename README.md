@@ -12,6 +12,10 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+<p align="left">
+<img src="https://avatars.githubusercontent.com/u/5706363?v=4" width="100" height="100" border="0"/>
+</p>
+Check out my [portfolio site](https://jasonleewilson.com/)
 
 ## Hi there 👋, I am Jason Lee Wilson! 😄
 
@@ -26,16 +30,13 @@ Main Skills:
 - 🐛 Debugging
 - 👌 Site Reliability
 - 💻 System Management
-- 🧪 Test Driven Development
 - 🎨 Raster/Vector Pusher
 
-<p align="left">
-<img src="https://avatars.githubusercontent.com/u/5706363?v=4" width="100" height="100" border="0"/>
-</p>
+<a href="https://github.com/jasonleewilson/github-readme-stats#gh-light-mode-only">
+  <img src="https://github-readme-stats.vercel.app/api?username=jasonleewilson&theme=graywhite&show_icons=true#gh-light-mode-only" width="350"  alt="This image shows a summary of jasonleewilson's GitHub statistics."/>
+</a>
 
-Check out my [portfolio site](https://jasonleewilson.com/)
-
-
+![jasonleewilson's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jasonleewilson&theme=graywhite&show_icons=true&hide_border=true&layout=compact)
 
 See some ['Awesome Markdown'](https://github.com/mundimark/awesome-markdown) .md code
 
