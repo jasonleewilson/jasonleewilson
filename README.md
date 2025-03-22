@@ -12,12 +12,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-<p align="left">
-<img src="https://avatars.githubusercontent.com/u/5706363?v=4" width="100" height="100" border="0"/>
-</p>
-Check out my [portfolio site](https://jasonleewilson.com/)
 
-## Hi there 👋, I am Jason Lee Wilson! 😄
+#### Hi there 👋, I am Jason Lee Wilson! 😄
 
 I'm a frontend full stack engineer, with a passion for responsive and fast web applications. As a engineer, I work on making my code DRY, readable, scalable, maintainable, reusable and performant.
 
@@ -32,11 +28,18 @@ Main Skills:
 - 💻 System Management
 - 🎨 Raster/Vector Pusher
 
+<!-- ![jasonleewilson's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jasonleewilson&theme=graywhite&show_icons=true&hide_border=true&layout=compact) -->
+
+<p align="left">
+<img src="https://avatars.githubusercontent.com/u/5706363?v=4" width="100" height="100" border="0"/>
+</p>
+
+Check out my [portfolio site](https://jasonleewilson.com/)
+<!-- 
+
 <a href="https://github.com/jasonleewilson/github-readme-stats#gh-light-mode-only">
   <img src="https://github-readme-stats.vercel.app/api?username=jasonleewilson&theme=graywhite&show_icons=true#gh-light-mode-only" width="350"  alt="This image shows a summary of jasonleewilson's GitHub statistics."/>
-</a>
-
-![jasonleewilson's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jasonleewilson&theme=graywhite&show_icons=true&hide_border=true&layout=compact)
+</a> -->
 
 See some ['Awesome Markdown'](https://github.com/mundimark/awesome-markdown) .md code
 
