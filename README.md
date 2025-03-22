@@ -13,7 +13,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-#### Hi there 👋, I am Jason Lee Wilson! 😄
+## Hi there 👋, I am Jason Lee Wilson! 😄
 
 I'm a frontend full stack engineer, with a passion for responsive and fast web applications. As a engineer, I work on making my code DRY, readable, scalable, maintainable, reusable and performant.
 
