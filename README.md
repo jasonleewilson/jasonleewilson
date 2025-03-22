@@ -29,7 +29,17 @@ Main Skills:
 - 🧪 Test Driven Development
 - 🎨 Raster/Vector Pusher
 
+<p align="left">
+<img src="https://avatars.githubusercontent.com/u/5706363?v=4" width="100" height="100" border="0"/>
+</p>
+
 Check out my [portfolio site](https://jasonleewilson.com/)
+
+
+
+See some ['Awesome Markdown'](https://github.com/mundimark/awesome-markdown) .md code
+
+
 
 <!-- ADDITIONAL PROJECT INFORMATION -->
 
