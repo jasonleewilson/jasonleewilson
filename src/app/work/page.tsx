@@ -15,6 +15,7 @@ export const metadata: Metadata = {
 
 export default function Work() {
   const portfolioItems = [
+    // pfchangs.com
     {
       id: 0,
       name: "P.F. Chang's",
@@ -24,6 +25,8 @@ export default function Work() {
       repoUrl: "#",
       displayNone: "hidden",
     },
+
+    // luckycatfund.com
     {
       id: 1,
       name: "Luckycat",
@@ -33,15 +36,19 @@ export default function Work() {
       repoUrl: "#",
       displayNone: "hidden",
     },
+
+    // pressonthese.com
     {
-      id: 2,
-      name: "Lunar New Year",
-      description: "Portfolio 3 - description",
-      imageUrl: "/images/project-lunar-new-year.jpg",
-      siteUrl: "http://lunarnewyear.com",
-      repoUrl: "#",
-      displayNone: "hidden",
+      id: 10,
+      name: "Press On These",
+      description: "Portfolio 10 - description",
+      imageUrl: "/images/project-pressonthese.jpg",
+      siteUrl: "https://pressonthese.com",
+      repoUrl: "https://github.com/jasonleewilson/pressonthese",
+      displayNone: "",
     },
+
+    // pagodaasiangrill.com
     {
       id: 3,
       name: "Pagoda Asian Grill",
@@ -60,6 +67,8 @@ export default function Work() {
     //   repoUrl: "#",
     //   displayNone: "hidden",
     // },
+
+    // pfchangs.com/global
     {
       id: 4,
       name: "P.F. Chang's - Global",
@@ -69,6 +78,8 @@ export default function Work() {
       repoUrl: "#",
       displayNone: "hidden",
     },
+
+    // bitcoin-current-price.com
     {
       id: 5,
       name: "Bitcoin Current Price",
@@ -78,6 +89,8 @@ export default function Work() {
       repoUrl: "https://github.com/jasonleewilson/bitcoin-current-price",
       displayNone: "",
     },
+
+    // current-price.com
     {
       id: 6,
       name: "Current Price",
@@ -87,6 +100,8 @@ export default function Work() {
       repoUrl: "https://github.com/jasonleewilson/current-price",
       displayNone: "",
     },
+
+    // helloworldpro.com
     {
       id: 7,
       name: "Hello World Pro",
@@ -96,6 +111,8 @@ export default function Work() {
       repoUrl: "https://github.com/jasonleewilson/helloworldpro",
       displayNone: "",
     },
+
+    // jasonleewilson.github.io
     {
       id: 8,
       name: "Jason Lee Wilson - Github.io",
@@ -105,6 +122,8 @@ export default function Work() {
       repoUrl: "https://github.com/jasonleewilson/jasonleewilson.github.io",
       displayNone: "",
     },
+
+    // jasonleewilson.com
     {
       id: 9,
       name: "Jason Lee Wilson - This website",
@@ -113,6 +132,28 @@ export default function Work() {
       siteUrl: "https://jasonleewilson.com",
       repoUrl: "https://github.com/jasonleewilson/",
       displayNone: "",
+    },
+
+    // charlee.io
+    {
+      id: 11,
+      name: "Charlee",
+      description: "Portfolio 11 - description",
+      imageUrl: "/images/project-charlee.jpg",
+      siteUrl: "https://charlee.io",
+      repoUrl: "https://github.com/jasonleewilson/charlee",
+      displayNone: "",
+    },
+
+    // lunarnewyear.com
+    {
+      id: 2,
+      name: "Lunar New Year",
+      description: "Portfolio 3 - description",
+      imageUrl: "/images/project-lunar-new-year.jpg",
+      siteUrl: "http://lunarnewyear.com",
+      repoUrl: "#",
+      displayNone: "hidden",
     },
   ];
   return (

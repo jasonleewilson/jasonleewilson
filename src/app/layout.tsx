@@ -11,6 +11,7 @@ const myFont = Oswald({
   subsets: ["latin"],
   weight: "400",
   variable: "--my-font-family",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
