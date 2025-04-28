@@ -29,7 +29,7 @@ const Card: React.FC<CardProps> = ({
         <div className='shadow rounded-sm border-2 max-w-screen-s max-h-auto'>
           <Link
             href={siteUrl}
-            target='_blank'
+            // target='_blank'
             rel='noopener noreferrer'
             className=''
           >
@@ -66,7 +66,7 @@ const Card: React.FC<CardProps> = ({
             </p> */}
             <a
               href={siteUrl}
-              target='_blank'
+              target='_self'
               rel='noopener noreferrer'
               className='block h-8'
             >

@@ -21,7 +21,7 @@ export default function Work() {
       name: "P.F. Chang's",
       description: "Portfolio 1 - description",
       imageUrl: "/images/project-pfchangs.jpg",
-      siteUrl: "https://www.pfchangs.com",
+      siteUrl: "/work/details-pfchangs/",
       repoUrl: "#",
       displayNone: "hidden",
     },
@@ -32,7 +32,18 @@ export default function Work() {
       name: "Luckycat",
       description: "Portfolio 2 - description",
       imageUrl: "/images/project-luckycatfund.jpg",
-      siteUrl: "https://luckycatfund.com",
+      siteUrl: "/work/details-luckycatfund/",
+      repoUrl: "#",
+      displayNone: "hidden",
+    },
+
+    // dealeron
+    {
+      id: 11,
+      name: "DealerOn",
+      description: "Portfolio 1 - description",
+      imageUrl: "/images/project-dealeron.jpg",
+      siteUrl: "/work/details-dealeron/",
       repoUrl: "#",
       displayNone: "hidden",
     },
@@ -43,7 +54,7 @@ export default function Work() {
       name: "Press On These",
       description: "Portfolio 10 - description",
       imageUrl: "/images/project-pressonthese.jpg",
-      siteUrl: "https://pressonthese.com",
+      siteUrl: "/work/details-pressonthese/",
       repoUrl: "https://github.com/jasonleewilson/pressonthese",
       displayNone: "",
     },
@@ -54,19 +65,21 @@ export default function Work() {
       name: "Pagoda Asian Grill",
       description: "Portfolio 4 - description",
       imageUrl: "/images/pagoda-asian-grill.jpg",
-      siteUrl: "https://www.pagodaasiangrill.com",
+      siteUrl: "/work/details-pagoda/",
       repoUrl: "#",
       displayNone: "hidden",
     },
-    // {
-    //   id: 4,
-    //   name: "EPTex",
-    //   description: "Portfolio 5 - description",
-    //   imageUrl: "/images/project-eptexas.jpg",
-    //   siteUrl: "https://eptexas.com",
-    //   repoUrl: "#",
-    //   displayNone: "hidden",
-    // },
+
+    // peiwei
+    {
+      id: 4,
+      name: "PeiWei",
+      description: "Portfolio 5 - description",
+      imageUrl: "/images/project-peiwei.jpg",
+      siteUrl: "/work/details-peiwei/",
+      repoUrl: "#",
+      displayNone: "hidden",
+    },
 
     // pfchangs.com/global
     {
@@ -74,7 +87,18 @@ export default function Work() {
       name: "P.F. Chang's - Global",
       description: "Portfolio 6 - description",
       imageUrl: "/images/project-pfchangs-gbd.jpg",
-      siteUrl: "https://www.pfchangs.com/global",
+      siteUrl: "/work/details-pfchangs-global/",
+      repoUrl: "#",
+      displayNone: "hidden",
+    },
+
+    // lunarnewyear.com
+    {
+      id: 2,
+      name: "Lunar New Year",
+      description: "Portfolio 3 - description",
+      imageUrl: "/images/project-lunar-new-year.jpg",
+      siteUrl: "/work/details-lunarnewyear/",
       repoUrl: "#",
       displayNone: "hidden",
     },
@@ -85,7 +109,7 @@ export default function Work() {
       name: "Bitcoin Current Price",
       description: "Portfolio 7 - description",
       imageUrl: "/images/project-bitcoin-current-price.jpg",
-      siteUrl: "https://bitcoin-current-price.com",
+      siteUrl: "/work/details-bitcoin-current-price/",
       repoUrl: "https://github.com/jasonleewilson/bitcoin-current-price",
       displayNone: "",
     },
@@ -98,6 +122,17 @@ export default function Work() {
       imageUrl: "/images/project-current-price.jpg",
       siteUrl: "https://www.current-price.com",
       repoUrl: "https://github.com/jasonleewilson/current-price",
+      displayNone: "",
+    },
+
+    // charlee.io
+    {
+      id: 11,
+      name: "Charlee",
+      description: "Portfolio 11 - description",
+      imageUrl: "/images/project-charlee.jpg",
+      siteUrl: "/work/details-charlee/",
+      repoUrl: "https://github.com/jasonleewilson/charlee",
       displayNone: "",
     },
 
@@ -132,28 +167,6 @@ export default function Work() {
       siteUrl: "https://jasonleewilson.com",
       repoUrl: "https://github.com/jasonleewilson/",
       displayNone: "",
-    },
-
-    // charlee.io
-    {
-      id: 11,
-      name: "Charlee",
-      description: "Portfolio 11 - description",
-      imageUrl: "/images/project-charlee.jpg",
-      siteUrl: "https://charlee.io",
-      repoUrl: "https://github.com/jasonleewilson/charlee",
-      displayNone: "",
-    },
-
-    // lunarnewyear.com
-    {
-      id: 2,
-      name: "Lunar New Year",
-      description: "Portfolio 3 - description",
-      imageUrl: "/images/project-lunar-new-year.jpg",
-      siteUrl: "http://lunarnewyear.com",
-      repoUrl: "#",
-      displayNone: "hidden",
     },
   ];
   return (
