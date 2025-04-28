@@ -130,21 +130,7 @@ export default function detailsPfchangs() {
                         </span>
                         <SiReact className='tailwindcss' title='react' />
                       </div>
-                      <div className='has-tooltip'>
-                        <span className='tooltip rounded shadow-lg p-1 bg-gray-100 text-primary -mt-8'>
-                          nextjs
-                        </span>
-                        <SiNextdotjs title='nextjs' />
-                      </div>
-                      <div className='has-tooltip'>
-                        <span className='tooltip rounded shadow-lg p-1 bg-gray-100 text-primary -mt-8'>
-                          cloudflare
-                        </span>
-                        <SiCloudflare
-                          className='text-orange-400'
-                          title='cloudflare'
-                        />
-                      </div>
+
                       <div className='has-tooltip'>
                         <span className='tooltip rounded shadow-lg p-1 bg-gray-100 text-primary -mt-8'>
                           figma
