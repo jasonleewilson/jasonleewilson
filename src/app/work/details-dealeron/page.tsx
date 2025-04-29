@@ -46,17 +46,25 @@ export default function detailsDealeron() {
                     <span className='block text-sm'>Ricart Ford</span>
                   </h1>
 
-                  <p className='mt-1 text-sm text-gray-500'>2024-2025</p>
+                  <p className='mt-1 text-sm text-gray-500'>2025</p>
 
                   <p className='mt-4'>
                     website:
+                    <br />
+                    <Link
+                      href='https://dealer29317.dealeron.com/2025-nissan-kicks-near-you'
+                      aria-label='view my work'
+                      target='_blank'
+                    >
+                      2025 Nissan Kicks
+                    </Link>
                     <br />
                     <Link
                       href='https://www.ricartford.com/2024-Edge-Vs-2023-Honda-Passport/'
                       aria-label='view my work'
                       target='_blank'
                     >
-                      /2024-Edge-Vs-2023-Honda-Passport/
+                      2024 Edge vs 2023 Honda Passport
                     </Link>
                     <br />
                     <Link
@@ -64,7 +72,7 @@ export default function detailsDealeron() {
                       aria-label='view my work'
                       target='_blank'
                     >
-                      /ford-f-150-roush/
+                      Ford F-150 Roush
                     </Link>
                   </p>
 
@@ -192,6 +200,15 @@ export default function detailsDealeron() {
                 <div className='md:col-span-2'>
                   {/* <!-- Hero Image --> */}
                   <div className='w-full'>
+                    <Image
+                      src='/images/details/dealeron/Screen-Shot-3.jpg'
+                      alt=''
+                      className='w-full mb-4 rounded-lg shadow-md'
+                      width={800}
+                      height={1200}
+                      priority={true}
+                    />
+                    <br />
                     <Image
                       src='/images/details/dealeron/Screen-Shot-1.jpg'
                       alt=''

@@ -15,6 +15,17 @@ export const metadata: Metadata = {
 
 export default function Work() {
   const portfolioItems = [
+    // dealeron
+    {
+      id: 11,
+      name: "DealerOn",
+      description: "Portfolio 1 - description",
+      imageUrl: "/images/project-dealeron.jpg",
+      siteUrl: "/work/details-dealeron/",
+      repoUrl: "#",
+      displayNone: "hidden",
+    },
+
     // pfchangs.com
     {
       id: 0,
@@ -33,17 +44,6 @@ export default function Work() {
       description: "Portfolio 2 - description",
       imageUrl: "/images/project-luckycatfund.jpg",
       siteUrl: "/work/details-luckycatfund/",
-      repoUrl: "#",
-      displayNone: "hidden",
-    },
-
-    // dealeron
-    {
-      id: 11,
-      name: "DealerOn",
-      description: "Portfolio 1 - description",
-      imageUrl: "/images/project-dealeron.jpg",
-      siteUrl: "/work/details-dealeron/",
       repoUrl: "#",
       displayNone: "hidden",
     },
