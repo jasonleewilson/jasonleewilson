@@ -16,15 +16,15 @@ export const metadata: Metadata = {
 export default function Work() {
   const portfolioItems = [
     // dealeron
-    {
-      id: 11,
-      name: "DealerOn",
-      description: "Portfolio 1 - description",
-      imageUrl: "/images/project-dealeron.jpg",
-      siteUrl: "/work/details-dealeron/",
-      repoUrl: "#",
-      displayNone: "hidden",
-    },
+    // {
+    //   id: 11,
+    //   name: "DealerOn",
+    //   description: "Portfolio 1 - description",
+    //   imageUrl: "/images/project-dealeron.jpg",
+    //   siteUrl: "/work/details-dealeron/",
+    //   repoUrl: "#",
+    //   displayNone: "hidden",
+    // },
 
     // pfchangs.com
     {
