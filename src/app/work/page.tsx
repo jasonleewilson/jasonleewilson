@@ -49,15 +49,15 @@ export default function Work() {
     },
 
     // pressonthese.com
-    {
-      id: 10,
-      name: "Press On These",
-      description: "Portfolio 10 - description",
-      imageUrl: "/images/project-pressonthese.jpg",
-      siteUrl: "/work/details-pressonthese/",
-      repoUrl: "https://github.com/jasonleewilson/pressonthese",
-      displayNone: "",
-    },
+    // {
+    //   id: 10,
+    //   name: "Press On These",
+    //   description: "Portfolio 10 - description",
+    //   imageUrl: "/images/project-pressonthese.jpg",
+    //   siteUrl: "/work/details-pressonthese/",
+    //   repoUrl: "https://github.com/jasonleewilson/pressonthese",
+    //   displayNone: "",
+    // },
 
     // pagodaasiangrill.com
     {
