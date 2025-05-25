@@ -43,6 +43,7 @@ export default function detailsDealeron() {
 
                   <h1 className='text-3xl font-bold'>
                     DealerOn
+                    <span className='block text-sm'>D'Addario Nissan</span>
                     <span className='block text-sm'>Ricart Ford</span>
                   </h1>
 
@@ -52,7 +53,7 @@ export default function detailsDealeron() {
                     website:
                     <br />
                     <Link
-                      href='https://dealer29317.dealeron.com/2025-nissan-kicks-near-you'
+                      href='https://www.daddarionissan.com/2025-nissan-kicks-near-you'
                       aria-label='view my work'
                       target='_blank'
                     >
