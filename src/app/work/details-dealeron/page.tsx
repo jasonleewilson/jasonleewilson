@@ -43,7 +43,7 @@ export default function detailsDealeron() {
 
                   <h1 className='text-3xl font-bold'>
                     DealerOn
-                    <span className='block text-sm'>D'Addario Nissan</span>
+                    <span className='block text-sm'>D&apos;Addario Nissan</span>
                     <span className='block text-sm'>Ricart Ford</span>
                   </h1>
 
