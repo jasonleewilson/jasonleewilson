@@ -49,15 +49,15 @@ export default function Work() {
     },
 
     // pressonthese.com
-    // {
-    //   id: 10,
-    //   name: "Press On These",
-    //   description: "Portfolio 10 - description",
-    //   imageUrl: "/images/project-pressonthese.jpg",
-    //   siteUrl: "/work/details-pressonthese/",
-    //   repoUrl: "https://github.com/jasonleewilson/pressonthese",
-    //   displayNone: "",
-    // },
+    {
+      id: 10,
+      name: "Press On These",
+      description: "Portfolio 10 - description",
+      imageUrl: "/images/project-pressonthese.jpg",
+      siteUrl: "/work/details-pressonthese/",
+      repoUrl: "https://github.com/jasonleewilson/pressonthese",
+      displayNone: "",
+    },
 
     // pagodaasiangrill.com
     {
@@ -158,6 +158,17 @@ export default function Work() {
       displayNone: "",
     },
 
+    // kidsbind.com
+    {
+      id: 10,
+      name: "KidsBind",
+      description: "Portfolio 10 - description",
+      imageUrl: "/images/project-kidsbind.jpg",
+      siteUrl: "https://kidsbind.pages.dev",
+      repoUrl: "https://github.com/jasonleewilson/kidsbind",
+      displayNone: "",
+    },
+
     // jasonleewilson.com
     {
       id: 9,
@@ -174,7 +185,7 @@ export default function Work() {
       <div>
         <h1 className='text-4xl font-medium text-right mb-4 uppercase'>Work</h1>
         <hr className='border border-primary mb-4' />
-        <div className='grid sm:grid-cols-1 sm:grid-rows-1 md:grid-cols-2 md:grid-rows-2 gap-4'>
+        <div className='grid sm:grid-cols-1 sm:grid-rows-1 md:grid-cols-2 md:grid-rows-2 lg:grid-cols-3 lg:grid-rows-3 gap-4'>
           {portfolioItems.map((portfolioItem) => (
             <Card
               key={"${portfolioItem.name}-${portfolioItem.id}"}
