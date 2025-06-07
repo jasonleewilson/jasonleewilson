@@ -38,7 +38,13 @@ export default function RootLayout({
   return (
     <html lang='en' suppressHydrationWarning>
       <GoogleTagManager gtmId='GTM-N6T8XD' />
-      {/* <body className='flex flex-col h-screen bg-gray-50'> */}
+      <link
+        rel='preload'
+        fetchpriority='high'
+        as='image'
+        href='/images/me-close.webp'
+        type='image/webp'
+      />
 
       <body className={myFont.className}>
         <Providers>
