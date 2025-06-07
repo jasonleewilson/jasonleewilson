@@ -41,7 +41,6 @@ export default function RootLayout({
       <GoogleTagManager gtmId='GTM-N6T8XD' />
       <Link
         rel='preload'
-        fetchpriority='high'
         as='image'
         href='/images/me-close.webp'
         type='image/webp'
