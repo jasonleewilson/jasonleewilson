@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { Oswald } from "next/font/google";
 import { GoogleTagManager } from "@next/third-parties/google";
 import "./globals.css";
@@ -39,12 +38,6 @@ export default function RootLayout({
   return (
     <html lang='en' suppressHydrationWarning>
       <GoogleTagManager gtmId='GTM-N6T8XD' />
-      <Link
-        rel='preload'
-        as='image'
-        href='/images/me-close.webp'
-        type='image/webp'
-      />
 
       <body className={myFont.className}>
         <Providers>

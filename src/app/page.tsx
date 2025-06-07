@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { preload } from "react-dom";
 import Icons from "./components/Icons";
 // import Image from "next/image";
 
@@ -12,6 +13,12 @@ export const metadata: Metadata = {
 import { RiArrowRightUpLine } from "react-icons/ri";
 
 export default function Home() {
+  {
+    /* ALTERNATIVE TO <link rel="preload" fetchpriority="high" as="image" href="/images/me-close.webp" type="image/webp" /> */
+  }
+  const background = "/images/me-close.webp";
+  preload(background, { as: "image", fetchPriority: "high" });
+
   return (
     <main className='flex-grow container-fluid mt-20 bg-gray-100 dark:bg-black'>
       <section className="grid h-full place-items-center bg-[url('/images/me-close.webp')] bg-no-repeat  bg-contain bg-right-bottom">
