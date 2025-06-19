@@ -44,6 +44,25 @@ export default function detailsPeiwei() {
 
                   <p className='mt-1 text-sm text-gray-500'>Year: 2016</p>
                   <p className='mt-4'>
+                    microsite:{" "}
+                    <Link
+                      href='https://jasonleewilson.github.io/microsites/quinoa/index.html'
+                      aria-label='view my work'
+                      target='_blank'
+                    >
+                      Quinoa
+                    </Link>
+                    <br />
+                    microsite:{" "}
+                    <Link
+                      href='https://jasonleewilson.github.io/microsites/lightenup/index.html'
+                      aria-label='view my work'
+                      target='_blank'
+                    >
+                      LightenUp
+                    </Link>
+                    <br />
+                    <br />
                     website:{" "}
                     <Link
                       href='https://peiwei.com/'
