@@ -152,33 +152,46 @@ export default function detailsPeiwei() {
                 <div className='md:col-span-2'>
                   {/* <!-- Hero Image --> */}
                   <div className='w-full'>
-                    <Image
-                      src='/images/details/peiwei/Screen-Shot-1.jpg'
-                      alt=''
-                      // fill={true}
-                      className='w-full mb-4 rounded-lg shadow-md'
-                      width={700}
-                      height={400}
-                      // sizes='800 400 100vw'
-                      priority={true}
-                      // style={{
-                      //   objectFit: "cover",
-                      // }}
-                    />
+                    <Link
+                      href='https://jasonleewilson.github.io/microsites/quinoa/index.html'
+                      aria-label='view my work'
+                      target='_blank'
+                    >
+                      <Image
+                        src='/images/details/peiwei/Screen-Shot-1.jpg'
+                        alt=''
+                        // fill={true}
+                        className='w-full mb-4 rounded-lg shadow-md'
+                        width={700}
+                        height={400}
+                        // sizes='800 400 100vw'
+                        priority={true}
+                        // style={{
+                        //   objectFit: "cover",
+                        // }}
+                      />
+                    </Link>
+
                     <br />
-                    <Image
-                      src='/images/details/peiwei/Screen-Shot-2.jpg'
-                      alt=''
-                      // fill={true}
-                      className='w-full rounded-lg shadow-md'
-                      width={700}
-                      height={400}
-                      // sizes='800 400 100vw'
-                      priority={true}
-                      // style={{
-                      //   objectFit: "cover",
-                      // }}
-                    />
+                    <Link
+                      href='https://jasonleewilson.github.io/microsites/lightenup/index.html'
+                      aria-label='view my work'
+                      target='_blank'
+                    >
+                      <Image
+                        src='/images/details/peiwei/Screen-Shot-2.jpg'
+                        alt=''
+                        // fill={true}
+                        className='w-full rounded-lg shadow-md'
+                        width={700}
+                        height={400}
+                        // sizes='800 400 100vw'
+                        priority={true}
+                        // style={{
+                        //   objectFit: "cover",
+                        // }}
+                      />
+                    </Link>
                   </div>
                 </div>
               </div>
