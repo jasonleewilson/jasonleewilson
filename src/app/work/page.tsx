@@ -15,6 +15,17 @@ export const metadata: Metadata = {
 
 export default function Work() {
   const portfolioItems = [
+    // peiwei
+    {
+      id: 14,
+      name: "PeiWei - LightenUp",
+      description: "Portfolio 5 - description",
+      imageUrl: "/images/project-peiwei-lightenup.jpg",
+      siteUrl: "/work/details-peiwei-lightenup/",
+      repoUrl: "#",
+      displayNone: "hidden",
+    },
+
     // dealeron
     {
       id: 11,
