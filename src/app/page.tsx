@@ -5,7 +5,7 @@ import Icons from "./components/Icons";
 // import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "jasonleewilson.com",
+  title: "jasonleewilson.com - Super cool web engineer / developer in Texas",
   description:
     "Super cool web engineer / developer. I offer a complete solution ranging from website creation, design and maintenance for internet-based clients worldwide.",
 };
@@ -28,7 +28,7 @@ export default function Home() {
               jasonleewilson.
               <strong className='font-medium text-primary sm:block '>
                 {" "}
-                Senior Frontend Engineer.{" "}
+                Senior Frontend Developer.{" "}
               </strong>
             </h1>
 
