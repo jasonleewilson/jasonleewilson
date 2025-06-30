@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { preload } from "react-dom";
 import Icons from "./components/Icons";
+import HeroText from "./components/HeroText";
 // import Image from "next/image";
 
 export const metadata: Metadata = {
@@ -24,18 +25,7 @@ export default function Home() {
       <section className="grid h-full place-items-center bg-[url('/images/me-close.webp')] bg-no-repeat  bg-contain bg-right-bottom">
         <div className='mx-auto max-w-screen-xl px-2'>
           <div className='mx-auto max-w-xl text-center'>
-            <h1 className='text-4xl md:text-4xl font-medium'>
-              jasonleewilson.
-              <strong className='font-medium text-primary sm:block '>
-                {" "}
-                Senior Frontend Developer.{" "}
-              </strong>
-            </h1>
-
-            <h2 className='mt-4 font-medium leading-6 text-xl/relaxed md:text-2xl'>
-              I build pixel-perfect, engaging, <br />
-              and accessible digital experiences.
-            </h2>
+            <HeroText />
 
             <div className='mt-8 flex flex-wrap justify-center gap-4'>
               <Link
