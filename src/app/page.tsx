@@ -22,7 +22,7 @@ export default function Home() {
 
   return (
     <main className='flex-grow container-fluid mt-20 bg-gray-100 dark:bg-black'>
-      <section className="grid h-full place-items-center bg-[url('/images/me-close.webp')] bg-no-repeat  bg-contain bg-right-bottom">
+      <section className="grid h-full place-items-center md:bg-[url('/images/me-close.webp')] bg-no-repeat  bg-contain bg-right-bottom">
         <div className='mx-auto max-w-screen-xl px-2'>
           <div className='mx-auto max-w-xl text-center'>
             <HeroText />
