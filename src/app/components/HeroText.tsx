@@ -36,7 +36,7 @@ function HeroText() {
         className='text-4xl md:text-4xl font-medium opacity-0 translate-y-10'
       >
         jasonleewilson.
-        <strong className='font-medium text-primary sm:block '>
+        <strong className='font-medium text-primary block '>
           {" "}
           Senior Frontend Developer.{" "}
         </strong>
