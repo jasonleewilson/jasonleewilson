@@ -3,6 +3,7 @@ import Link from "next/link";
 import { preload } from "react-dom";
 import Icons from "./components/Icons";
 import HeroText from "./components/HeroText";
+import Bug from "./components/Bug";
 // import Image from "next/image";
 
 export const metadata: Metadata = {

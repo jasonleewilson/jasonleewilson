@@ -29,6 +29,16 @@ html {
   height:calc(100vh - 5rem)!important;
 }
 
+.bug {
+  width: 144px;
+  height: 144px;
+  outline: 1px solid red;
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  z-index: 100;
+}
+
 /* BACKGROUND ANIMATION */
 /* body {
   height: 100vh;

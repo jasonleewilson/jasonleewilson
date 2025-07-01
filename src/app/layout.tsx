@@ -4,6 +4,7 @@ import { GoogleTagManager } from "@next/third-parties/google";
 import "./globals.css";
 import Navbar from "../app/components/Navbar.js";
 import Footer from "../app/components/Footer";
+import Bug from "./components/Bug";
 import GreetUser from "@/app/components/GreetUser";
 import { Providers } from "./providers";
 
@@ -42,7 +43,8 @@ export default function RootLayout({
       <body className={myFont.className}>
         <Providers>
           {/* <Providers enableSystem={false}> */}
-          <div className='flex flex-col h-screen bg-gray-100 mt-16 md:mt-20 dark:bg-black'>
+          <div className='flex flex-col h-screen bg-gray-100 mt-16 md:mt-20 dark:bg-black relative overflow-hidden'>
+            <Bug />
             <Navbar />
             {children}
             <Footer />
