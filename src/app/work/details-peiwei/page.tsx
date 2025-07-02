@@ -93,7 +93,11 @@ export default function detailsPeiwei() {
                       <li>HTML</li>
                       <li>CSS</li>
                       <li>JavaScript</li>
+                      <li>Photoshop</li>
+                      <li>Illustrator</li>
                       <li>jQuery</li>
+                      <li>CSS Animations</li>
+                      <li>GSAP</li>
                       <li>Adobe XD</li>
                     </ul>
 
