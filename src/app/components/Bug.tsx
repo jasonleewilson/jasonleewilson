@@ -39,7 +39,7 @@ const Bug: React.FC = () => {
       width={120}
       height={120}
       onMouseEnter={moveRandomly}
-      className='absolute top-[100px] left-[20px] z-[9999] transition-all duration-300 ease-in-out'
+      className='absolute top-[56%] left-[30%] z-[9999] transition-all duration-300 ease-in-out'
     />
   );
 };
