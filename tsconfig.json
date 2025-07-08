@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "forceConsistentCasingInFileNames": true,//recently added
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "forceConsistentCasingInFileNames": true, //recently added
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -19,11 +23,22 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"],
+      "@/*": [
+        "./src/*"
+      ]
       // "@/styles/*": ["/src/app/styles/*"],
       // "@/components/*": ["/src/app/components/*"]
-    }
+    },
+    "target": "ES2017"
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/components/HeroText.tsx"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/app/components/HeroText.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }

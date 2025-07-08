@@ -1,7 +1,8 @@
+@import url("./styles/colors-social.css");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("./styles/colors-social.css");
+
 
 .dark {background: #000;}
 

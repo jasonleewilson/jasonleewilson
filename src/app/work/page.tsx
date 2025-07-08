@@ -94,7 +94,7 @@ export default function Work() {
 
     // pfchangs.com/global
     {
-      id: 4,
+      id: 13,
       name: "P.F. Chang's - Global",
       description: "Portfolio 6 - description",
       imageUrl: "/images/project-pfchangs-gbd.jpg",
@@ -138,7 +138,7 @@ export default function Work() {
 
     // charlee.io
     {
-      id: 11,
+      id: 12,
       name: "Charlee",
       description: "Portfolio 11 - description",
       imageUrl: "/images/project-charlee.jpg",
@@ -171,7 +171,7 @@ export default function Work() {
 
     // kidsbind.com
     {
-      id: 10,
+      id: 15,
       name: "KidsBind",
       description: "Portfolio 10 - description",
       imageUrl: "/images/project-kidsbind.jpg",
@@ -199,7 +199,7 @@ export default function Work() {
         <div className='grid sm:grid-cols-1 sm:grid-rows-1 md:grid-cols-2 md:grid-rows-2 lg:grid-cols-3 lg:grid-rows-3 gap-4'>
           {portfolioItems.map((portfolioItem) => (
             <Card
-              key={"${portfolioItem.name}-${portfolioItem.id}"}
+              key={`${portfolioItem.name}-${portfolioItem.id}`}
               {...portfolioItem}
             />
           ))}
