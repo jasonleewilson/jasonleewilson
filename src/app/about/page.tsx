@@ -211,7 +211,7 @@ export default function About() {
                   exceeds expectations.
                 </p>
 
-                <p className='p-2'>Warm regards, Jason Lee Wilson</p>
+                <p className='p-2'>- Jason Lee Wilson</p>
               </div>
             </section>
           </div>
