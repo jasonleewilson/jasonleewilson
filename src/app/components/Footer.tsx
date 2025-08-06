@@ -10,7 +10,6 @@ const Clock = dynamic(() => import("../components/Clock"), { ssr: false });
 
 import {
   SiLinkedin,
-  SiTwitter,
   SiGithub,
   SiInstagram,
   SiPinterest,
