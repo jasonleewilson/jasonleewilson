@@ -1,16 +1,68 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-// import profilePic from "/src/app/images/photo-1053x700.jpeg";
+import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "about",
+  title: "About",
   description: "Super cool web engineer / developer",
 };
 
 export default function About() {
+  const aboutSchema = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Jason Lee Wilson",
+    alternateName: "jasonleewilson",
+    url: "https://jasonleewilson.com/about",
+    image: "https://jasonleewilson.com/images/profile-jasonleewilson.jpg",
+    description:
+      "Seasoned Front-End Developer and Web Designer with 25 years of industry experience.",
+    jobTitle: "Senior Frontend Developer",
+    email: "mailto:info@jasonleewilson.com",
+    sameAs: [
+      "https://www.linkedin.com/in/jasonleewilson/",
+      "https://github.com/jasonleewilson",
+      "https://codepen.io/jasonleewilson",
+      "https://www.pinterest.com/jasonleewilson/_saved/",
+      "https://twitter.com/jasonleewilson",
+    ],
+    worksFor: {
+      "@type": "Organization",
+      name: "Freelance / Open for Opportunities",
+    },
+    alumniOf: {
+      "@type": "CollegeOrUniversity",
+      name: "Collins College",
+      sameAs: "https://www.collinscollege.edu/",
+    },
+    knowsAbout: [
+      "JavaScript",
+      "React.js",
+      "Angular",
+      "Vue.js",
+      "Node.js",
+      "Web Development",
+      "Front-End Development",
+      "UI/UX Design",
+      "HTML5",
+      "CSS3",
+      "Responsive Design",
+    ],
+    slogan:
+      "I build pixel-perfect, engaging, and accessible digital experiences.",
+  };
+
   return (
     <>
+      {/* ✅ JSON-LD Schema */}
+      <Script
+        id='about-schema'
+        type='application/ld+json'
+        strategy='afterInteractive'
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutSchema) }}
+      />
+
       <main className='flex-grow container-fluid px-4 lg:px-4 bg-gray-100 dark:bg-black'>
         <h1 className='text-4xl font-medium text-right mb-4 uppercase'>
           about
@@ -83,6 +135,7 @@ export default function About() {
           <div className='col-span-2 row-span-3'>
             <section className='text-gray-800 dark:text-white'>
               <div className='container flex flex-col justify-center mx-auto text-2xl'>
+                {/* ✅ Existing content unchanged */}
                 <p className='p-2'>
                   I&rsquo;m Jason Lee Wilson, a seasoned Front-End Developer and
                   Web Designer with 25 years of industry experience. Born and
