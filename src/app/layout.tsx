@@ -43,7 +43,7 @@ export default function RootLayout({
       <body className={myFont.className}>
         <Providers>
           {/* <Providers enableSystem={false}> */}
-          <div className='flex flex-col min-h-screen md:h-screen bg-gray-100 mt-16 md:mt-20 dark:bg-black relative overflow-x-hidden'>
+          <div className='flex flex-col min-h-screen bg-gray-100 mt-16 dark:bg-black relative overflow-x-hidden'>
             <Bug />
             <Navbar />
             {children}
