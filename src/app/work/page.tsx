@@ -192,7 +192,7 @@ export default function Work() {
     },
   ];
   return (
-    <main className='flex-grow container-fluid px-4 lg:px-4 bg-gray-100 dark:bg-black'>
+    <>
       <div>
         <h1 className='text-4xl font-medium text-right mt-4 mb-4 uppercase'>Work</h1>
         <hr className='border border-primary mb-4' />
@@ -217,6 +217,6 @@ export default function Work() {
           </Link>
         </div>
       </section>
-    </main>
+    </>
   );
 }

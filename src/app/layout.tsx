@@ -38,15 +38,30 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en' suppressHydrationWarning>
-      <GoogleTagManager gtmId='GTM-N6T8XD' />
+      <head>
+        {/* ✅ GTM script goes in head */}
+        <GoogleTagManager gtmId="GTM-N6T8XD" />
+      </head>
 
       <body className={myFont.className}>
+        {/* ✅ GTM noscript fallback inside body */}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-N6T8XD"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
+
         <Providers>
           {/* <Providers enableSystem={false}> */}
           <div className='flex flex-col min-h-screen bg-gray-100 mt-16 dark:bg-black relative overflow-x-hidden'>
             <Bug />
             <Navbar />
-            {children}
+            <main className="flex-grow container-fluid px-4 lg:px-4 bg-gray-100 dark:bg-black">
+              {children}
+            </main>
             <Footer />
             <GreetUser />
           </div>

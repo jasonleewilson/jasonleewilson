@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 export default function detailsPfchangs() {
   return (
     <>
-      <main className='flex-grow container-fluid px-4 lg:px-4 bg-gray-100 dark:bg-black'>
+      
         <h1 className='text-4xl font-medium text-right mt-4 mb-4 uppercase'>
           details-pfchangs
         </h1>
@@ -188,7 +188,7 @@ export default function detailsPfchangs() {
             </div>
           </div>
         </section>
-      </main>
+
     </>
   );
 }
