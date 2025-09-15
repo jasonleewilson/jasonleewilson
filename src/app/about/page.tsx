@@ -73,9 +73,9 @@ export default function About() {
             <Image
               src='/images/profile-jasonleewilson.jpg'
               alt='profile'
-              width='0'
-              height='0'
-              sizes='100vw'
+              width='160'
+              height='160'
+              // sizes='100vw'
               className='inline-block w-40 h-40 rounded-full'
               priority={true}
             />
