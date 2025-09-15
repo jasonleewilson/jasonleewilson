@@ -71,7 +71,7 @@ export default function About() {
         <div className='grid sm:grid-cols-1 sm:grid-rows-1 lg:grid-cols-3 gap-4 w-full'>
           <div className='col-span-2 md:col-span-1 text-center'>
             <Image
-              src='./images/profile-jasonleewilson.jpg'
+              src='/images/profile-jasonleewilson.jpg'
               alt='profile'
               width='0'
               height='0'
