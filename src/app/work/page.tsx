@@ -194,7 +194,7 @@ export default function Work() {
   return (
     <main className='flex-grow container-fluid px-4 lg:px-4 bg-gray-100 dark:bg-black'>
       <div>
-        <h1 className='text-4xl font-medium text-right mb-4 uppercase'>Work</h1>
+        <h1 className='text-4xl font-medium text-right mt-4 mb-4 uppercase'>Work</h1>
         <hr className='border border-primary mb-4' />
         <div className='grid sm:grid-cols-1 sm:grid-rows-1 md:grid-cols-2 md:grid-rows-2 lg:grid-cols-3 lg:grid-rows-3 gap-4'>
           {portfolioItems.map((portfolioItem) => (

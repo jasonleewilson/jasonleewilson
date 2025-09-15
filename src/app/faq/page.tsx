@@ -12,7 +12,7 @@ export default function Faq() {
   return (
     <>
       <main className='flex-grow container-fluid px-4 lg:px-4 bg-gray-100 dark:bg-black'>
-        <h1 className='text-4xl font-medium text-right mb-4 uppercase'>FAQ</h1>
+        <h1 className='text-4xl font-medium text-right mt-4 mb-4 uppercase'>FAQ</h1>
         <hr className='border border-primary mb-4' />
 
         <section className='text-gray-800 dark:text-white'>

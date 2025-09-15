@@ -14,7 +14,7 @@ export default function Skills() {
   return (
     <>
       <main className='container-fluid px-4 lg:px-4 bg-gray-100 dark:bg-black'>
-        <h1 className='text-4xl font-medium text-right mb-4 uppercase'>
+        <h1 className='text-4xl font-medium text-right mt-4 mb-4 uppercase'>
           Skills
         </h1>
         <hr className='border border-primary mb-4' />
@@ -41,7 +41,7 @@ export default function Skills() {
           </div>
         </div> */}
 
-        <div className='grid grid-cols-3 grid-rows-2 gap-4'>
+        <div className='grid grid-cols-3 grid-rows-1 gap-4'>
           <section id='skills' className='pb-4 xl:sticky lg:static top-20'>
             <ul>
               <Link href='#proficiency-in-programming-languages'>
