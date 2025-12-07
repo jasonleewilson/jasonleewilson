@@ -13,7 +13,7 @@ export default function Thankyou() {
         <h1 className='text-4xl font-medium text-right mr-2 mb-4'>Thank you</h1>
         <hr className='border border-primary mb-4' />
         <p className='block'>I appreciate you submitting the contact form.</p>
-      </main>
+      </>
     </>
   );
 }
