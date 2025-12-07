@@ -38,7 +38,7 @@ export default function CaseStudiesPFC() {
             <p>case studies PFC paragraph here</p>
           </div>
         </div>
-      </main>
+      </>
     </>
   );
 }
